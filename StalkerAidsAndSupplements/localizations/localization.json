@@ -107,7 +107,7 @@
   "GAMEPLAY_SleepingPillsDescription": {
     "English": "Sleeping pills in a bottle.",
     "German": "",
-    "Russian": "",
+    "Russian": "Снотворное во флаконе.",
     "French (France)": "",
     "Japanese": "瓶入りの睡眠薬。",
     "Korean": "",
@@ -128,7 +128,7 @@
   "GAMEPLAY_RosehipsCooked": {
     "English": "Cooked Rosehips",
     "German": "",
-    "Russian": "",
+    "Russian": "Варёные плоды шиповника",
     "French (France)": "",
     "Japanese": "調理済みローズヒップ",
     "Korean": "",
@@ -149,7 +149,7 @@
   "GAMEPLAY_RosehipsCookedDescription": {
     "English": "Cooked Rosehip, nothing too interesting, just mushy rosehips and water.",
     "German": "",
-    "Russian": "",
+    "Russian": "Варёный шиповник. Ничего особенного, просто кашица из шиповника и воды.",
     "French (France)": "",
     "Japanese": "調理したローズヒップ、何の変哲もない、水とローズヒップを混ぜただけのものだ。",
     "Korean": "",
@@ -170,7 +170,7 @@
   "GAMEPLAY_UncookedRosehipJam": {
     "English": "Uncooked Rose hip Jam",
     "German": "",
-    "Russian": "",
+    "Russian": "Варенье из сырых плодов шиповника",
     "French (France)": "",
     "Japanese": "未調理のローズヒップジャム",
     "Korean": "",
@@ -191,7 +191,7 @@
   "GAMEPLAY_UncookedRosehipJamDescription": {
     "English": "Uncooked Rose hip Jam, tastes like water and sugar with some pieces of rosehips, gross...",
     "German": "",
-    "Russian": "",
+    "Russian": "Варенье из сырого шиповника. На вкус как вода с сахаром и несколькими кусочками шиповника. Отвратительно...",
     "French (France)": "",
     "Japanese": "未調理のローズヒップジャム、水と砂糖にローズヒップのかけらを加えたような味がする、濃厚だ……。",
     "Korean": "",
@@ -212,7 +212,7 @@
   "GAMEPLAY_RosehipJam": {
     "English": "Rose Hip Jam",
     "German": "",
-    "Russian": "",
+    "Russian": "Варенье из шиповника",
     "French (France)": "",
     "Japanese": "ローズヒップジャム",
     "Korean": "",
@@ -338,7 +338,7 @@
   "GAMEPLAY_Ibuprofen": {
     "English": "Ibuprofen",
     "German": "",
-    "Russian": "",
+    "Russian": "Ибупрофен",
     "French (France)": "",
     "Japanese": "イブプロフェン",
     "Korean": "",
@@ -359,7 +359,7 @@
   "GAMEPLAY_IbuprofenDescription": {
     "English": "A better version of regular painkillers",
     "German": "",
-    "Russian": "",
+    "Russian": "Лучшая версия обычных обезболивающих",
     "French (France)": "",
     "Japanese": "普通の鎮痛剤の改良版だ。",
     "Korean": "",
@@ -380,7 +380,7 @@
   "GAMEPLAY_NaturalBandage": {
     "English": "Burdock Dressing",
     "German": "",
-    "Russian": "",
+    "Russian": "Повязка на рану из лопуха",
     "French (France)": "",
     "Japanese": "ゴボウの創傷包帯",
     "Korean": "",
@@ -401,7 +401,7 @@
   "GAMEPLAY_NaturalBandageDescription": {
     "English": "Burdock and Cooking oil Soaked in a piece of cloth bandage.",
     "German": "",
-    "Russian": "",
+    "Russian": "Смоченный в растительном масле репейник в повязке.",
     "French (France)": "",
     "Japanese": "ゴボウ入りの食用油に包帯を浸したもの。",
     "Korean": "",
@@ -420,4 +420,5 @@
     "Ukrainian": ""
   }
 }
+
 
