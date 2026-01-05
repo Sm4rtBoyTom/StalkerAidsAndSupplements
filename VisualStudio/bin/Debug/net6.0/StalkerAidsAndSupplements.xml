@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StalkerAidsAndSupplements</name>
+    </assembly>
+    <members>
+        <member name="T:StalkerAidsAndSupplements.BuildInfo">
+            <summary></summary>
+        </member>
+        <member name="F:StalkerAidsAndSupplements.BuildInfo.Name">
+            <summary>The machine readable name of the mod (no special characters or spaces)</summary>
+            <remarks>
+            <para>This is used in logs that relate to this mod. So this should always be Alphanumerical, without exception</para>
+            </remarks>
+        </member>
+        <member name="F:StalkerAidsAndSupplements.BuildInfo.Author">
+            <summary>Who made the mod</summary>
+        </member>
+        <member name="F:StalkerAidsAndSupplements.BuildInfo.Version">
+            <summary>Current version</summary>
+            <value>This should always be <see href="https://semver.org">Semantic Versioning</see></value>
+        </member>
+        <member name="F:StalkerAidsAndSupplements.BuildInfo.GUIName">
+            <summary>Name used on GUI's, like ModSettings</summary>
+        </member>
+        <member name="F:StalkerAidsAndSupplements.BuildInfo.MelonLoaderVersion">
+            <summary>The minimum Melon Loader version that your mod requires</summary>
+            <remarks>
+            <para>This should only be increased if you actually require a newer version of MelonLoader. NEVER change it before an update has been properly tested</para>
+            <para>If a user has a version less than this, MelonLoader will not load this mod</para>
+            </remarks>
+        </member>
+        <member name="F:StalkerAidsAndSupplements.BuildInfo.PreviousAuthors">
+            <summary>Who used to handle the mod</summary>
+            <remarks>
+            <para>This is currently unused</para>
+            <para>When implemented, this will show the previous authors of this mod</para>
+            </remarks>
+        </member>
+        <member name="F:StalkerAidsAndSupplements.BuildInfo.Description">
+            <summary>What the mod does</summary>
+        </member>
+        <member name="F:StalkerAidsAndSupplements.BuildInfo.Company">
+            <summary>Company that made it</summary>
+        </member>
+        <member name="F:StalkerAidsAndSupplements.BuildInfo.DownloadLink">
+            <summary>A valid download link</summary>
+            <remarks>
+            <para>This must be a link to a file, not a site</para>
+            </remarks>
+            <example>https://github.com/Arkhorse/FuelManager/releases/download/latest/FuelManager.dll</example>
+        </member>
+        <member name="F:StalkerAidsAndSupplements.BuildInfo.Copyright">
+            <summary>Copyright info</summary>
+            <remarks>When updating the year, use the StartYear-CurrentYear format eg(Copyright © 2020-2024)</remarks>
+        </member>
+        <member name="F:StalkerAidsAndSupplements.BuildInfo.Trademark">
+            <summary>Trademark info</summary>
+        </member>
+        <member name="F:StalkerAidsAndSupplements.BuildInfo.Product">
+            <summary>Product Name (Generally use the Name)</summary>
+        </member>
+        <member name="F:StalkerAidsAndSupplements.BuildInfo.Culture">
+            <summary>Culture info</summary>
+        </member>
+        <member name="F:StalkerAidsAndSupplements.BuildInfo.Priority">
+            <summary>Priority of your mod. Most of the time you should not need to change this</summary>
+        </member>
+    </members>
+</doc>
