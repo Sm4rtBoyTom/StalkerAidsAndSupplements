@@ -1,3 +1,4 @@
+![Thumb_MoreMeds](https://github.com/user-attachments/assets/afdc3ffc-ba41-4ced-8338-b77c81f905d9)
 
 **StalkerAidsAndSupplements is a mod for [The Long Dark](https://www.thelongdark.com). 
 A video game developed by [Hinterland Games](https://hinterlandgames.com/).**
