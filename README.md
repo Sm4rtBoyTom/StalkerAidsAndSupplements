@@ -24,5 +24,5 @@ This mod was also heavily inspired by the S.T.A.L.K.E.R series.
 
 **Install** [[ModSettings](https://github.com/DigitalzombieTLD/ModSettings/releases/tag/v2.0.6)] **and it's dependencies.**
 
-- **Extract the** **.modcomponent and .dll** **files from the zip file and put both files into your mods folder**.
+- **Extract the** **.modcomponent and .dll** **files from the .zip file and put both files into your mods folder**.
 - **Enjoy**!
