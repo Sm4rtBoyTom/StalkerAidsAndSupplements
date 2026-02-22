@@ -26,7 +26,7 @@ internal class BlueprintPatches
     {
         private static void Postfix(GearItem gi)
         {
-            if (gi == null || !gi.name.Contains("GEAR_NoteNaturalBandage") || !gi.name.Contains("GEAR_NaturalBandage")) return;
+            if (gi == null || !gi.name.Contains("GEAR_NoteNaturalBandage")) return;
 
             Il2CppTLD.Gear.BlueprintManager __instance = Il2CppTLD.Gear.BlueprintManager.Instance;
             if (__instance == null) return;
@@ -47,3 +47,4 @@ internal class BlueprintPatches
         }
     }
 }
+
