@@ -11,7 +11,7 @@ sure that you deleted the MoreMeds.modcomponent file, before installing the newe
 
 a mod for The Long Dark, that adds Various new Medical/Food Items
 Any ideas for additional drugs/suplements are welcome!
-This mod was also heavily inspired by S.T.A.L.K.E.R series.
+This mod was also heavily inspired by the S.T.A.L.K.E.R series.
 
 ### For Newest Information look into Release Notes
 
