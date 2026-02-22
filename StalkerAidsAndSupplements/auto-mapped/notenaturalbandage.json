@@ -1,0 +1,38 @@
+{
+  "ModCollectibleComponent": {
+    "DisplayNameLocalizationId": "GAMEPLAY_NoteNaturalBandage",
+    "DescriptionLocalizatonId": "GAMEPLAY_NoteNaturalBandageDescription",
+    "InventoryActionLocalizationId": "",
+    "WeightKG": 0.0,
+    "DaysToDecay": 0,
+    "MaxHP": 100.0,
+    "InitialCondition": "Random",
+    "InventoryCategory": "Auto",
+    "PickUpAudio": "Play_PaperRustle",
+    "PutBackAudio": "Play_PaperRustle",
+    "StowAudio": "Play_InventoryStow",
+    "WornOutAudio": "",
+    "InspectOnPickup": true,
+    "InspectDistance": 1.0,
+    "InspectAngles": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "InspectOffset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "InspectScale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "NormalModel": "",
+    "InspectModel": "",
+    "HudMessageLocalizationId": "",
+    "NarrativeTextLocalizationId": "GAMEPLAY_NoteNaturalBandage_Narrative",
+    "TextAlignment": "Automatic"
+  }
+}

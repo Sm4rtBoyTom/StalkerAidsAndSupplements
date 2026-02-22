@@ -1,0 +1,968 @@
+loottable=LootTableVehicleGloveBox
+item=CigarettePackOld w=1
+item=CigarettePackMarlboro w=1
+
+loottable=LootTableVehicleTrunk
+item=FirstAidKitPainKiller w=1
+
+loottable=LootTableKitchenCupboard
+item=SugarA w=1
+loottable=LootTableKitchenDrawer
+item=SugarA w=1
+
+loottable=LootTableCashRegister
+item=CigarettePackOld w=1
+item=CigarettePackMarlboro w=1
+
+loottable=LootTableFirstAidKit
+item=SleepingPills
+item=BottleCaffeine w=1
+item=PainkillerIbuprofen w=1
+item=BottleVitaminC w=1
+
+loottable=LootTableMedicalSupplies
+item=BottleCaffeine w=1
+item=PainkillerIbuprofen w=1
+item=BottleVitaminC w=1
+
+loottable=LootTableHumanCorpse
+item=CigarettePackOld w=1
+item=CigarettePackMarlboro w=1
+
+
+loottable=LootTableBackPack
+item=CigarettePackOld w=1
+item=CigarettePackMarlboro w=1
+
+
+scene=AirfieldRegion
+
+item=GEAR_SleepingPills p=134.0691,161.7712,-498.5326 r=0.0000,232.6492,0.0000 c=100
+
+item=GEAR_BottleVitaminC p=99.2236,161.7933,-454.1692 r=0.0000,253.1317,0.0000 c=100
+
+item=GEAR_CigarettePackOld p=327.6311,210.3023,1011.8860 r=0.0000,229.0424,0.0000 c=100
+
+item=GEAR_PainkillerIbuprofen p=-1161.9396,277.7596,-572.9910 r=2.3722,36.9762,1.0649 c=100
+
+
+item=GEAR_SleepingPills p=-736.0871,296.5939,1130.9774 r=-0.0000,35.1937,-0.0000 c=100
+
+item=GEAR_BottleVitaminC p=1038.7786,255.6578,414.9943 r=12.7271,52.7827,351.6246 c=100
+
+
+scene=HubRegion
+
+item=GEAR_PainkillerIbuprofen p=133.8290,252.9521,406.9703 r=0.0378,67.9657,0.0003 c=100
+
+item=GEAR_CigarettePackMarlboro p=132.2467,252.0968,400.4763 r=-0.0000,80.2027,-0.0000 c=100
+
+item=GEAR_BottleVitaminC p=191.4777,262.8232,446.6609 r=-0.0000,94.0288,-0.0000 c=100
+
+
+scene=MiningRegion
+
+item=GEAR_CigarettePackOld p=724.2408,325.3239,-50.7545 r=356.0388,157.8605,3.4349 c=100
+
+
+item=GEAR_PainkillerIbuprofen p=-136.0776,305.1164,605.2084 r=4.7075,249.4681,3.9078 c=100
+
+item=GEAR_SleepingPills p=-679.5713,208.5603,645.4289 r=4.0031,25.4601,6.0560 c=100
+
+item=GEAR_FirstAidKitPainkiller p=-599.6357,331.2002,87.1090 r=353.7377,160.7775,16.5985 c=100
+
+item=GEAR_BottleVitaminC p=-311.4204,199.3846,345.3947 r=0.0000,268.7686,0.0000 c=100
+
+item=GEAR_SugarA p=-286.2757,204.2671,261.3318 r=-0.0000,118.4010,-0.0000 c=100
+
+item=GEAR_SleepingPills p=-204.3079,206.3723,344.3050 r=-0.0000,92.8714,-0.0000 c=100
+
+
+item=GEAR_SugarA p=481.8336,242.9313,192.3960 r=358.9630,143.1749,359.5761 c=100
+
+item=GEAR_BottleVitaminC p=485.0295,243.5999,190.2990 r=1.1002,321.4008,0.5090 c=100
+
+scene=PumpHouse
+
+item=GEAR_PainkillerIbuprofen p=1.7927,1.0876,-3.2983 r=0.0000,207.9581,0.0000 c=100
+
+item=GEAR_CigarettePackOld p=-0.2346,1.0858,-3.1002 r=0.0000,308.4437,0.0000 c=100
+
+scene=TrailerE
+
+item=GEAR_CigarettePackMarlboro p=5.3459,0.9972,1.7175 r=0.0000,215.7140,0.0000 c=100
+
+scene=MineConcentratorBuilding
+
+item=GEAR_BottleCaffeine p=137.5534,35.9305,12.7089 r=0.0000,244.9724,0.0000 c=100
+
+item=GEAR_CigarettePackOld p=132.8001,-68.9404,11.4276 r=356.0411,52.1772,8.5795 c=100
+
+item=GEAR_SugarA p=-1.9057,56.2855,50.9283 r=0.0000,312.5980,0.0000 c=100
+
+
+item=GEAR_SleepingPills p=20.5277,56.1727,53.1134 r=-0.0000,107.7596,-0.0000 c=100
+
+
+scene=MiningRegionMine
+
+item=GEAR_PainkillerMorphineVial p=-249.6045,16.3074,379.4779 r=1.9965,72.7053,3.3551 c=100
+
+item=GEAR_BottleCaffeine p=-48.6511,0.8650,245.5033 r=0.0000,243.5997,0.0000 c=100
+
+
+item=GEAR_BottleVitaminC p=132.7242,2.6899,-90.4229 r=-0.0000,167.6562,-0.0000 c=100
+
+item=GEAR_CigarettePackMarlboro p=143.5391,9.5945,-105.1845 r=0.0000,356.3160,0.0000 c=100
+
+item=GEAR_PainkillerIbuprofen p=129.1463,10.4117,-119.3672 r=-0.0000,128.3377,-0.0000 c=100
+
+
+
+item=GEAR_CigarettePackOld p=102.4124,22.1439,10.7462 r=-0.0000,33.6433,-0.0000 c=100
+
+item=GEAR_PainkillerIbuprofen p=-35.0128,41.3245,161.0977 r=0.0000,238.9019,0.0000 c=100
+
+scene=AFHangar
+item=GEAR_Anabiotics p=2.3256,-7.9852,11.2989 r=-0.0000,127.2057,-0.0000 c=100 //Anabiotics
+
+item=GEAR_SugarA p=-26.0989,5.1069,-0.8668 r=0.0000,230.4117,0.0000 c=100
+
+
+item=GEAR_FirstAidKitPainkiller p=-1411.1932,240.0662,622.0383 r=354.3340,280.6192,9.5837 c=100 // Medkit
+
+scene=HubCave
+
+item=GEAR_BottleCaffeine p=40.9096,-7.3372,99.7178 r=356.3722,44.9764,352.3395 c=100
+
+
+item=GEAR_SugarA p=3.5225,12.1405,466.2755 r=2.8950,355.7033,356.0509 c=100
+
+item=GEAR_BottleVitaminC p=3.7638,12.8019,465.9290 r=0.2572,351.5082,3.7334 c=100
+
+item=GEAR_SleepingPills p=130.4081,99.4442,494.2782 r=9.1603,280.1976,343.3257 c=100
+
+scene=MountainPassRegion
+
+item=GEAR_BottleVitaminC p=202.3603,198.2205,764.6803 r=0.0017,81.6547,358.7794 c=100
+
+item=GEAR_SugarA p=261.9349,372.5003,-52.9709 r=0.0000,334.5302,0.0000 c=100
+
+item=GEAR_PainkillerIbuprofen p=-156.7818,444.8423,-429.6645 r=353.6790,233.3802,359.8214 c=100
+
+
+item=GEAR_Anabiotics p=-337.7318,601.6762,-1002.1417 r=-0.0000,19.9233,-0.0000 c=100
+
+item=GEAR_CigarettePackMarlboro p=-1249.5033,791.6796,144.3857 r=356.7116,25.4101,1.4154 c=100
+
+item=GEAR_BottleCaffeine p=-818.3691,874.3527,530.4927 r=-0.0000,17.9783,-0.0000 c=100
+
+item=GEAR_PainkillerIbuprofen p=-816.8432,875.7422,524.7587 r=0.0000,194.0217,0.0000 c=100
+
+item=GEAR_SleepingPills p=-105.8009,490.3580,-8.0127 r=12.5645,253.1345,1.7064 c=100
+
+item=GEAR_SugarA p=19.4373,535.1066,-682.0908 r=351.5508,330.7004,2.7511 c=100
+
+item=GEAR_FirstAidKitPainkiller p=1087.4969,618.5139,-698.6337 r=6.9795,131.9845,12.0506 c=100
+
+item=GEAR_SleepingPills p=583.1277,554.3802,-604.5392 r=4.2390,58.9566,337.5185 c=100
+
+
+item=GEAR_BottleVitaminC p=516.7804,600.0665,-628.1919 r=358.4296,247.3690,358.9489 c=100
+
+scene=RadarBuilding
+
+item=GEAR_PainkillerIbuprofen p=-0.9586,1.3937,3.4881 r=-0.0000,37.5409,-0.0000 c=100
+
+
+scene=MountainPassCabinA
+
+
+item=GEAR_SugarA p=4.2632,0.3190,-3.2906 r=0.0000,286.6572,0.0000 c=100
+
+item=GEAR_SleepingPills p=-26.2911,-2.1452,-160.5947 r=3.3188,331.0872,1.8725 c=100
+
+scene=MountainPassCaveA
+
+scene=MountainPassBuriedCabin
+
+item=GEAR_BottleCaffeine p=-2.8890,4.6953,-2.8463 r=0.0000,316.1705,0.0000 c=100
+
+item=GEAR_SugarA p=-2.6318,0.1874,5.9226 r=-0.0000,67.8926,-0.0000 c=100
+
+item=GEAR_CigarettePackOld p=-1.4790,1.2189,-5.9539 r=-0.0000,60.0180,-0.0000 c=100
+
+scene=MountainPassBasement
+
+
+item=GEAR_SleepingPills p=5.5452,0.8882,-3.4187 r=-0.0000,165.7849,-0.0000 c=100
+
+scene=MountainPassCaveB
+
+item=GEAR_BottleVitaminC p=-237.2140,-3.2613,64.0115 r=-0.0000,0.9565,-0.0000 c=100
+
+item=GEAR_PainkillerIbuprofen p=17.7607,57.6956,-52.1229 r=7.4463,19.4625,0.8825 c=100
+
+
+scene=LongRailTransitionZone
+
+item=GEAR_BottleCaffeine p=94.7306,1.4308,596.2441 r=0.0000,269.7722,0.0000 c=100
+
+item=GEAR_BottleVitaminC p=-25.6906,2.1818,74.6612 r=8.1727,121.1897,352.6293 c=100
+
+item=GEAR_SugarA p=-68.9209,1.1459,-175.0804 r=356.1481,59.4881,358.1099 c=100
+
+item=GEAR_CigarettePackMarlboro p=-49.4587,1.1902,-299.9646 r=2.0180,37.1943,359.0547 c=100
+
+scene=LongTransitionCave
+
+
+scene=TracksRegion
+
+item=GEAR_SleepingPills p=827.2335,237.5938,448.8115 r=0.5753,347.0786,6.9141 c=100
+
+scene=TracksRegion
+
+item=GEAR_Anabiotics p=785.6796,92.2015,361.0105 r=2.2379,227.1391,354.0241 c=100
+
+item=GEAR_BottleVitaminC p=586.3518,200.2219,559.1335 r=355.2750,238.4009,352.2785 c=100
+
+
+scene=HuntingLodgeA
+
+
+item=GEAR_SleepingPills p=-3.2440,8.2330,-4.8747 r=359.2811,181.0900,-0.0000 c=100
+
+item=GEAR_PainkillerIbuprofen p=-6.8826,-2.8974,-5.0579 r=0.0000,236.9791,0.0000 c=100
+
+
+scene=MaintenanceShedA
+
+item=GEAR_BottleCaffeine p=-8.4844,1.7766,-21.6674 r=-0.0000,25.9757,-0.0000 c=100
+
+item=GEAR_SugarA p=-11.5126,0.9693,-25.4352 r=-0.0000,28.3952,-0.0000 c=100
+
+item=GEAR_PainkillerMorphineVial p=8.1418,2.4236,-24.0237 r=-0.0000,169.8802,-0.0000 c=100
+
+scene=MarshRegion
+
+item=GEAR_SleepingPills p=477.4112,-122.1115,55.9903 r=1.9387,287.6998,358.4156 c=100
+
+item=GEAR_SugarA p=475.2631,-123.9819,52.9325 r=357.7035,359.0807,3.5377 c=100
+
+item=GEAR_CigarettePackMarlboro p=1067.9716,-124.3184,390.6095 r=359.2844,315.7656,359.8817 c=100
+
+item=GEAR_PainkillerIbuprofen p=1597.1985,-48.8250,300.1672 r=15.6676,277.8593,16.4009 c=100
+
+item=GEAR_BottleVitaminC p=1117.9053,-129.5928,975.9338 r=3.9359,166.3126,358.2421 c=100
+
+
+item=GEAR_SleepingPills p=1146.8594,-109.9267,1421.6498 r=358.1056,215.4854,11.7139 c=100
+
+item=GEAR_BottleCaffeine p=1146.9535,-109.9505,1421.5981 r=10.3871,87.5127,354.2357 c=100
+
+item=GEAR_PainkillerIbuprofen p=701.7410,-18.3546,1488.9453 r=350.2189,197.7340,356.8397 c=100
+
+item=GEAR_CigarettePackOld p=-36.7433,-98.4874,125.8334 r=2.0716,151.4377,356.6989 c=100
+
+scene=PrepperCacheE
+
+item=GEAR_PainkillerMorphineVial p=-1.4854,0.5297,-6.7110 r=1.1704,143.9761,1.6099 c=100
+
+item=GEAR_BottleCaffeine p=2.7559,1.7611,2.0570 r=-0.0000,17.6096,-0.0000 c=100
+
+scene=MountainTownRegion
+
+item=GEAR_CigarettePackOld p=1276.1053,245.1897,1001.2989 r=357.7534,288.0704,2.0046 c=100
+
+item=GEAR_FirstAidKitPainkiller p=742.4205,6.5467,1136.2379 r=345.0666,338.2430,338.8296 c=100
+
+item=GEAR_BottleCaffeine p=542.4216,223.2618,1532.8602 r=-0.0000,70.7701,-0.0000 c=100
+
+
+item=GEAR_BottleCaffeine p=919.1740,315.1321,1153.5314 r=0.0000,203.9171,0.0000 c=100
+
+item=GEAR_Anabiotics p=1998.3331,379.9687,1428.5088 r=-0.0000,102.9157,-0.0000 c=100
+
+
+scene=FarmHouseB
+
+item=GEAR_CigarettePackOld p=1.5258,1.1667,0.7302 r=-0.0000,31.5047,-0.0000 c=100
+
+item=GEAR_SugarA p=-3.5330,1.5206,2.3447 r=-0.0000,74.5575,-0.0000 c=100
+
+item=GEAR_SugarA p=1.7770,0.2336,5.8250 r=0.0000,257.7036,0.0000 c=100
+
+item=GEAR_BottleVitaminC p=-2.2642,1.4126,-2.6720 r=-0.0000,16.9207,-0.0000 c=100
+
+item=GEAR_PainkillerIbuprofen p=-2.9442,0.1707,-3.1137 r=-0.0000,15.4763,-0.0000 c=100
+
+scene=ChurchB
+
+item=GEAR_SleepingPills p=-5.0924,1.9958,-3.8313 r=-0.0000,49.0382,-0.0000 c=100
+
+scene=MiltonTrailerB
+
+item=GEAR_PainkillerIbuprofen p=-7.1650,1.0123,-0.2036 r=0.0000,353.6539,0.0000 c=100
+
+scene=PrepperCacheB
+
+item=GEAR_SugarA p=1.7512,1.5810,2.0938 r=-0.0000,83.1225,-0.0000 c=100
+
+item=GEAR_BottleVitaminC p=-2.2201,1.5996,-1.8329 r=-0.0000,178.9186,-0.0000 c=100
+
+item=GEAR_BottleCaffeine p=-8.0121,0.9519,-1.3476 r=358.0868,254.0021,0.5487 c=100
+
+scene=MountainTownCaveA
+
+
+scene=ConvenienceStoreA
+
+item=GEAR_SugarA p=0.6729,0.6797,0.1485 r=0.0000,304.1216,0.0000 c=100
+
+item=GEAR_BottleCaffeine p=-6.2543,1.2023,3.9494 r=0.0000,296.6283,0.0000 c=100
+
+item=GEAR_BottleVitaminC p=-0.0134,0.6079,7.3865 r=-0.0000,32.8574,-0.0000 c=100
+
+item=GEAR_CigarettePackMarlboro p=0.4202,1.0571,8.0201 r=-0.0000,141.2698,-0.0000 c=100
+
+scene=MiltonHouseF2
+
+item=GEAR_BottleVitaminC p=-2.4913,1.4793,3.7227 r=-0.0000,147.7037,-0.0000 c=100
+
+item=GEAR_SleepingPills p=1.9504,3.5385,-1.5047 r=0.0000,339.1814,0.0000 c=100
+
+scene=GreyMothersHouseA
+
+item=GEAR_SugarA p=-2.3644,0.4355,3.1417 r=0.0000,244.4430,0.0000 c=100
+
+item=GEAR_SleepingPills p=7.7384,0.4619,5.5222 r=0.0000,258.0842,0.0000 c=100
+
+item=GEAR_PainkillerIbuprofen p=1.4139,4.8999,-4.2872 r=-0.0000,145.9612,-0.0000 c=100
+
+scene=BankA
+
+item=GEAR_PainkillerIbuprofen p=-0.3067,0.8735,-5.9023 r=0.0000,199.7181,0.0000 c=100
+
+
+scene=MiltonHouseD
+
+item=GEAR_SugarA p=-5.0637,1.6705,0.7670 r=0.0000,200.5343,0.0000 c=100
+
+scene=MiltonHouseA
+
+item=GEAR_SugarA p=-5.0696,0.9494,2.3680 r=0.0000,255.9711,0.0000 c=100
+
+scene=BunkerC
+
+item=GEAR_PainkillerIbuprofen p=-1.6180,1.8111,7.9897 r=0.0000,354.8406,0.0000 c=100
+
+item=GEAR_SugarA p=-7.8722,-0.6313,11.9524 r=0.0000,228.3747,0.0000 c=100
+
+item=GEAR_BottleCaffeine p=0.3470,1.4616,17.5786 r=-0.0000,3.3716,-0.0000 c=100
+
+scene=RiverValleyRegion
+
+item=GEAR_SleepingPills p=1180.2300,196.7119,775.3942 r=356.6345,177.2469,356.9384 c=100
+
+item=GEAR_PainkillerIbuprofen p=917.3871,16.5426,1192.8948 r=21.2810,272.5267,357.4029 c=100
+
+item=GEAR_PainkillerMorphineVial p=1433.0490,286.3697,1306.2808 r=355.3876,276.7641,2.0002 c=100
+
+item=GEAR_BottleVitaminC p=843.3839,130.3127,1022.9671 r=296.1293,153.4951,69.0037 c=100
+
+item=GEAR_SleepingPills p=879.8713,77.8836,865.3997 r=357.9797,328.0090,354.8055 c=100
+
+
+item=GEAR_Anabiotics p=338.0269,237.3454,450.4933 r=11.5325,22.5108,29.3116 c=100
+
+item=GEAR_PainkillerIbuprofen p=405.1772,260.9386,435.1565 r=353.7880,292.5580,356.4291 c=100
+
+scene=IceCaveA
+
+item=GEAR_BottleVitaminC p=4.3942,-10.4666,-10.1702 r=353.8148,164.0126,9.1734 c=100
+
+item=GEAR_BottleCaffeine p=-11.4536,-11.2173,64.1236 r=348.5641,89.6018,20.6331 c=100
+
+scene=SafeHouseA
+
+item=GEAR_CigarettePackOld p=-1.5053,0.7645,2.1923 r=-0.0000,17.3345,-0.0000 c=100
+
+item=GEAR_SleepingPills p=-5.5125,1.6426,7.2164 r=1.5839,90.2094,0.0058 c=100
+
+scene=LakeRegion
+
+item=GEAR_SleepingPills p=-5.5125,1.6426,7.2164 r=1.5839,90.2094,0.0058 c=100
+
+item=GEAR_BottleCaffeine p=66.6368,26.4770,944.8815 r=0.0000,275.0605,0.0000 c=100
+
+item=GEAR_Anabiotics p=373.0353,108.4538,1619.3794 r=353.4478,106.2618,345.2906 c=100
+
+item=GEAR_SugarA p=786.3687,213.4135,966.4042 r=0.0000,208.2997,0.0000 c=100
+
+item=GEAR_BottleVitaminC p=790.0461,214.1351,969.8522 r=-0.0000,27.6820,-0.0000 c=100
+
+item=GEAR_SleepingPills p=948.6096,44.7294,-224.4142 r=354.0964,307.2920,0.5113 c=100
+
+
+
+scene=TrailerB
+
+item=GEAR_PainkillerIbuprofen p=0.2024,1.4534,-1.8932 r=0.0000,224.5191,0.0000 c=100
+
+scene=TrailerA
+
+item=GEAR_SugarA p=5.9866,0.0194,1.6497 r=0.0000,340.6079,0.0000 c=100
+
+scene=CampOffice
+
+item=GEAR_BottleCaffeine p=7.0224,1.1507,2.2999 r=-0.0000,45.1747,-0.0000 c=100
+
+item=GEAR_SugarA p=-4.7185,0.5712,-3.2271 r=-0.0000,12.4416,-0.0000 c=100
+
+item=GEAR_CigarettePackMarlboro p=5.5791,4.8072,-0.6976 r=-0.0000,36.6504,-0.0000 c=100
+
+scene=LakeCabinE
+
+item=GEAR_PainkillerIbuprofen p=-0.8777,0.1131,3.1617 r=-0.0000,20.3700,-0.0000 c=100
+
+scene=TrailerD
+
+item=GEAR_CigarettePackMarlboro p=0.1835,0.6621,1.2076 r=0.0000,336.6548,0.0000 c=100
+
+scene=PrepperCacheAEmpty
+
+scene=Dam
+
+item=GEAR_BottleCaffeine p=7.8592,1.1670,-27.1080 r=-0.0000,138.8945,-0.0000 c=100
+
+
+
+item=GEAR_BottleVitaminC p=-9.2914,6.3709,-16.5674 r=0.0000,236.5001,0.0000 c=100
+
+item=GEAR_SugarA p=-8.3409,4.8022,-12.0384 r=-0.0000,74.5281,-0.0000 c=100
+
+item=GEAR_CigarettePackMarlboro p=-9.1229,5.8615,-5.5430 r=0.0000,296.7766,0.0000 c=100
+
+item=GEAR_SleepingPills p=-24.6821,0.0814,-49.0229 r=0.0000,289.8911,0.0000 c=100
+
+scene=DamTransitionZone
+
+item=GEAR_BottleCaffeine p=-4.8145,1.6762,-5.1409 r=0.0000,286.6288,0.0000 c=100
+
+item=GEAR_PainkillerIbuprofen p=-45.2519,-7.4232,2.7804 r=-0.0000,160.6721,-0.0000 c=100
+
+scene=DamRiverTransitionZoneB
+
+item=GEAR_BottleVitaminC p=640.6263,50.2492,433.1423 r=3.9907,293.2571,359.7690 c=100
+
+scene=RavineTransitionZone
+
+item=GEAR_BottleCaffeine p=-772.6021,130.0993,-129.5588 r=356.3958,283.9889,28.9173 c=100
+
+item=GEAR_SleepingPills p=-634.2698,140.3264,31.0959 r=350.3196,255.5745,3.0209 c=100
+
+scene=CanneryRegion
+
+item=GEAR_PainkillerMorphineVial p=-10.4157,167.9881,341.0156 r=12.4152,226.0112,354.4360 c=100
+
+
+item=GEAR_BottleCaffeine p=21.6516,130.4975,514.2536 r=355.6322,108.0585,359.4054 c=100
+
+item=GEAR_BottleVitaminC p=-987.1128,63.6589,433.2879 r=4.7135,351.9883,357.7873 c=100
+
+item=GEAR_PainkillerIbuprofen p=-1032.1273,56.3974,101.1256 r=0.0000,216.1822,0.0000 c=100
+
+
+item=GEAR_CigarettePackOld p=-571.9344,85.9684,710.4041 r=0.6857,331.4765,0.2364 c=100
+
+item=GEAR_CigarettePackOld p=-70.9796,138.4483,24.1378 r=358.5449,298.8393,359.8794 c=100
+
+item=GEAR_SleepingPills p=-634.0439,35.4730,-72.6772 r=0.0000,210.2594,0.0000 c=100
+
+item=GEAR_BottleCaffeine p=-739.0054,36.8421,-409.0272 r=356.3225,123.5653,348.3200 c=100
+
+item=GEAR_Anabiotics p=76.4537,96.8364,-919.1059 r=1.4456,342.8628,0.7913 c=100
+
+item=GEAR_PainkillerIbuprofen p=794.7900,123.4616,497.0733 r=354.0940,15.1009,0.4871 c=100
+
+item=GEAR_SugarA p=-2.0226,0.8635,1.2274 r=0.0000,180.5837,0.0000 c=100
+
+item=GEAR_BottleVitaminC p=298.6683,240.8251,354.2896 r=-0.0000,175.3738,-0.0000 c=100
+
+item=GEAR_SleepingPills p=-391.9764,38.6398,-483.6815 r=-0.0000,3.8385,-0.0000 c=100
+
+
+
+item=GEAR_SugarA p=-362.1774,33.0306,-519.6988 r=-0.0000,125.7197,-0.0000 c=100
+
+scene=RadioControlHutB
+
+item=GEAR_BottleVitaminC p=2.5611,1.4516,3.7160 r=-0.0000,171.8263,-0.0000 c=100
+
+scene=MaintenanceShedB
+
+item=GEAR_SleepingPills p=11.5429,0.2981,-1.0007 r=0.0000,196.4424,0.0000 c=100
+
+item=GEAR_SugarA p=-8.3859,1.6270,-24.8348 r=-0.0000,161.5260,-0.0000 c=100
+
+item=GEAR_BottleCaffeine p=0.7128,0.2155,-9.3427 r=359.1682,293.2196,359.6494 c=100
+
+scene=BunkerA
+
+item=GEAR_PainkillerIbuprofen p=-4.4375,1.6371,12.5605 r=0.0000,187.0593,0.0000 c=100
+
+item=GEAR_BottleCaffeine p=6.7463,1.1611,7.2554 r=-0.0000,91.8885,-0.0000 c=100
+
+item=GEAR_SugarA p=1.2422,0.6811,10.1981 r=0.0000,309.7723,0.0000 c=100
+
+scene=BunkerB
+
+item=GEAR_SugarA p=-3.6395,0.2793,7.8473 r=-0.0000,179.5418,-0.0000 c=100
+
+item=GEAR_PainkillerMorphineVial p=0.9205,0.1708,10.4051 r=-0.0000,32.3326,-0.0000 c=100
+
+item=GEAR_SleepingPills p=-6.5530,1.0668,10.3925 r=-0.0000,67.8812,-0.0000 c=100
+
+scene=BunkerXL
+
+item=GEAR_SleepingPills p=4.4801,1.6049,5.2850 r=-0.0000,76.4550,-0.0000 c=100
+
+item=GEAR_SugarA p=5.4953,0.3795,23.2809 r=0.0000,290.8003,0.0000 c=100
+
+item=GEAR_SugarA p=-1.1537,0.8138,15.5574 r=0.0000,269.1940,0.0000 c=100
+
+item=GEAR_PainkillerIbuprofen p=-11.8782,0.7097,22.1019 r=0.7802,272.7904,343.7764 c=100
+
+scene=TrailerC
+
+
+scene=LakeCabinD
+
+item=GEAR_SugarA p=-1.5451,1.2674,-3.4205 r=0.0000,186.0511,0.0000 c=100
+
+scene=CoastalRegion
+
+item=GEAR_SleepingPills p=-1107.9926,116.0600,310.5510 r=357.2771,244.6245,4.5516 c=100
+
+item=GEAR_PainkillerIbuprofen p=-689.4819,25.0532,403.9279 r=-0.0000,111.3184,-0.0000 c=100
+
+item=GEAR_CigarettePackMarlboro p=718.4052,25.5232,710.9639 r=355.0560,280.1193,6.0636 c=100
+
+item=GEAR_SleepingPills p=358.1539,203.8175,1154.8890 r=7.8568,349.0053,2.1449 c=100
+
+scene=FishingCabinC
+
+item=GEAR_CigarettePackOld p=2.2033,0.0350,-3.4058 r=-0.0000,110.5515,-0.0000 c=100
+
+scene=CoastalHouseD
+
+item=GEAR_BottleCaffeine p=2.7320,1.2718,0.7588 r=0.0000,208.9347,0.0000 c=100
+
+item=GEAR_SugarA p=-0.4601,1.7071,3.3244 r=-0.0000,124.6320,-0.0000 c=100
+
+item=GEAR_BottleVitaminC p=-3.6861,0.5263,3.5440 r=-0.0000,104.9887,-0.0000 c=100
+
+scene=CoastalHouseC
+
+item=GEAR_PainkillerIbuprofen p=0.3093,1.0476,-2.8623 r=0.0000,192.3788,0.0000 c=100
+
+scene=CoastalHouseB
+
+item=GEAR_SugarA p=-1.9415,0.9902,6.9636 r=-0.0000,66.7621,-0.0000 c=100
+
+scene=CoastalHouseA
+
+item=GEAR_SugarA p=-0.4391,1.1571,-2.1100 r=3.2349,15.3659,359.7031 c=100
+
+item=GEAR_SleepingPills p=5.5613,0.1678,-0.3169 r=0.0000,260.8755,0.0000 c=100
+
+scene=QuonsetGasStation
+
+
+
+item=GEAR_BottleVitaminC p=5.7321,0.6023,4.0266 r=-0.0000,63.2899,-0.0000 c=100
+
+item=GEAR_CigarettePackMarlboro p=4.2645,1.7108,8.2347 r=0.0000,187.2399,0.0000 c=100
+
+scene=HighwayTransitionZone
+
+item=GEAR_CigarettePackMarlboro p=388.3355,68.1586,475.4340 r=0.0000,294.6237,0.0000 c=100
+
+scene=HouseBasementC
+
+item=GEAR_BottleCaffeine p=-0.9619,151.6094,2.5764 r=0.0000,334.5669,0.0000 c=100
+
+scene=HighwayMineTransitionZone
+
+item=GEAR_CigarettePackOld p=-66.2703,-4.5315,-23.7673 r=-0.0000,17.4800,-0.0000 c=100
+
+scene=WhalingStationRegion
+
+item=GEAR_PainkillerIbuprofen p=173.6513,87.5481,965.3311 r=357.7209,276.1698,356.1566 c=100
+
+item=GEAR_FirstAidKitPainkiller p=787.4567,16.3231,1102.1234 r=352.0510,289.5251,9.3885 c=100
+
+scene=LighthouseA
+
+item=GEAR_SugarA p=3.0771,0.8653,5.0901 r=356.8796,223.4703,359.5073 c=100
+
+item=GEAR_SleepingPills p=2.7705,5.4898,0.3699 r=0.0000,224.0874,0.0000 c=100
+
+scene=WhalingShipA
+
+item=GEAR_BottleCaffeine p=-3.3181,2.1075,-16.4187 r=352.9149,172.0787,331.4810 c=100
+
+item=GEAR_CigarettePackMarlboro p=-3.1801,5.2753,-7.0692 r=12.1613,299.4490,6.9885 c=100
+
+scene=TrailerSShape
+
+item=GEAR_BottleVitaminC p=-11.7767,1.6213,7.5411 r=-0.0000,175.9714,-0.0000 c=100
+
+item=GEAR_CigarettePackOld p=12.7986,1.0106,-9.0261 r=-0.0000,60.0081,-0.0000 c=100
+
+scene=WhalingWarehouseA
+
+item=GEAR_PainkillerIbuprofen p=2.0979,3.9953,-12.0306 r=0.0000,214.3042,0.0000 c=100
+
+
+item=GEAR_PainkillerMorphineVial p=1.4991,0.0220,-19.7285 r=0.0000,336.6145,0.0000 c=100
+
+item=GEAR_SleepingPills p=13.9075,1.5021,15.6016 r=0.0000,262.4551,0.0000 c=100
+
+item=GEAR_BottleCaffeine p=-13.6229,4.8493,6.5730 r=358.7326,135.3920,357.7757 c=100
+
+scene=MineTransitionZone
+
+item=GEAR_Anabiotics p=-16.1714,-5.8891,32.3251 r=4.7512,266.8771,359.8708 c=100
+
+item=GEAR_BottleVitaminC p=-119.0253,-80.0743,282.5286 r=0.0644,129.8124,0.1559 c=100
+
+item=GEAR_BottleCaffeine p=-64.5897,-49.4477,78.3346 r=352.0363,231.5823,9.0186 c=100
+
+
+item=GEAR_PainkillerIbuprofen p=-113.3455,-56.2596,161.0789 r=356.6309,98.6036,2.8548 c=100
+
+item=GEAR_BottleVitaminC p=-135.3902,-56.6208,230.7950 r=0.0000,284.5769,0.0000 c=100
+
+item=GEAR_SleepingPills p=-35.1093,-19.9486,-19.3700 r=2.5981,105.3839,359.7388 c=100
+
+scene=RuralStoreA
+
+item=GEAR_SugarA p=-2.9187,1.1906,-0.2897 r=-0.0000,135.5020,-0.0000 c=100
+
+item=GEAR_BottleCaffeine p=-0.1285,0.9827,-7.7714 r=0.0000,197.7418,0.0000 c=100
+
+scene=CommunityHallA
+
+item=GEAR_SugarA p=-2.8604,0.5420,4.5225 r=0.1146,350.1490,0.6600 c=100
+
+item=GEAR_Anabiotics p=-8.7730,2.4778,3.3907 r=-0.0000,146.1938,-0.0000 c=100
+
+item=GEAR_SleepingPills p=7.0593,1.6709,-6.7419 r=359.8699,64.5294,359.7270 c=100
+
+scene=RuralRegion
+
+item=GEAR_PainkillerIbuprofen p=2004.8073,97.4434,2825.1541 r=359.5105,267.6587,16.2932 c=100
+
+item=GEAR_BottleVitaminC p=1394.1547,88.7814,2694.2705 r=355.7527,16.0426,357.5347 c=100
+
+
+
+item=GEAR_PainkillerIbuprofen p=2365.7007,169.7056,252.0762 r=358.3547,158.9161,353.0036 c=100
+
+item=GEAR_BottleCaffeine p=468.3307,60.6178,566.2379 r=0.0000,256.7603,0.0000 c=100
+
+item=GEAR_BottleVitaminC p=1236.5498,73.3502,871.8056 r=0.5616,153.8290,355.7408 c=100
+
+item=GEAR_PainkillerMorphineVial p=588.3207,157.4345,1789.5050 r=4.7226,344.0849,31.8019 c=100
+
+item=GEAR_PainkillerIbuprofen p=547.5952,149.0588,1726.1333 r=0.0000,268.9478,0.0000 c=100
+
+item=GEAR_SleepingPills p=512.6893,150.9382,1573.1418 r=9.9473,224.8544,355.5510 c=100
+
+item=GEAR_CigarettePackMarlboro p=673.4771,141.0037,2280.9915 r=1.0211,26.8009,8.4834 c=100
+
+item=GEAR_SugarA p=356.1707,140.5230,2624.8210 r=0.0000,353.3924,0.0000 c=100
+
+scene=RadioControlHut
+
+item=GEAR_SugarA p=-0.2622,1.0346,0.7879 r=0.0000,227.1520,0.0000 c=100
+
+item=GEAR_BottleVitaminC p=-1.1478,0.6773,1.4047 r=-0.0000,74.6755,-0.0000 c=100
+
+scene=BarnHouseA
+
+item=GEAR_BottleCaffeine p=-6.7070,0.3242,15.4882 r=-0.0000,6.9891,-0.0000 c=100
+
+item=GEAR_SleepingPills p=1.3841,6.3218,5.7078 r=-0.0000,90.1477,-0.0000 c=100
+
+scene=FarmHouseA
+
+
+item=GEAR_SugarA p=-0.4713,1.5654,9.5704 r=-0.0000,6.6970,-0.0000 c=100
+
+item=GEAR_SleepingPills p=1.4411,1.8656,3.1480 r=0.1145,114.8557,-0.0000 c=100
+
+scene=FarmHouseABasement
+
+
+scene=PrepperCacheA
+
+item=GEAR_Anabiotics p=-3.3519,0.5287,-1.4750 r=358.5693,225.9644,1.3838 c=100
+
+scene=CaveB
+
+item=GEAR_BottleCaffeine p=-88.6631,-8.8451,54.9386 r=1.9007,326.9748,350.5044 c=100
+
+item=GEAR_BottleVitaminC p=-88.5683,-8.8698,55.0419 r=8.7390,70.9955,4.1847 c=100
+
+scene=PrepperCacheEmpty
+
+item=GEAR_SugarA p=3.6840,0.1608,-0.7245 r=-0.0000,157.8348,-0.0000 c=100
+
+item=GEAR_BottleCaffeine p=-0.0713,0.0641,-3.5964 r=0.0000,299.5537,0.0000 c=100
+
+scene=CrashMountainRegion
+
+item=GEAR_BottleCaffeine p=886.0406,162.0047,343.6789 r=0.0000,236.2416,0.0000 c=100
+
+item=GEAR_BottleVitaminC p=1380.5352,148.0646,1208.3828 r=346.7917,77.5062,7.0928 c=100
+
+item=GEAR_SleepingPills p=580.8452,333.7943,974.1410 r=13.7183,110.5886,0.9510 c=100
+
+item=GEAR_SugarA p=941.2619,470.6023,1168.3168 r=6.7725,282.4590,4.8472 c=100
+
+item=GEAR_SugarA p=940.9832,470.5764,1168.5210 r=7.4803,272.9360,3.6571 c=100
+
+item=GEAR_SugarA p=941.1680,470.5924,1168.3645 r=6.8885,281.0628,4.6805 c=100
+
+item=GEAR_FirstAidKitPainkiller p=926.4031,465.5334,1180.3846 r=2.8349,146.5210,2.8723 c=100
+
+item=GEAR_SleepingPills p=930.2355,470.6490,1166.9497 r=2.7374,187.3962,354.3130 c=100
+
+scene=AshCanyonRegion
+
+
+item=GEAR_CigarettePackOld p=616.2059,56.7946,-494.5393 r=0.0000,286.4147,0.0000 c=100
+
+
+item=GEAR_BottleCaffeine p=-772.2231,237.9264,-102.4477 r=347.7171,106.1199,5.2350 c=100
+
+item=GEAR_SleepingPills p=-210.8105,188.3826,-425.4757 r=3.1629,200.1122,356.0462 c=100
+
+item=GEAR_PainkillerIbuprofen p=-357.1608,193.1341,260.6634 r=8.9708,317.3159,0.8174 c=100
+
+item=GEAR_PainkillerIbuprofen p=146.7574,129.8227,-50.7436 r=3.7390,316.0500,356.9115 c=100
+
+item=GEAR_BottleVitaminC p=111.3693,191.4695,-42.9415 r=358.5205,190.9059,10.5310 c=100
+
+item=GEAR_BottleCaffeine p=310.4663,235.7734,571.2980 r=0.0000,193.3864,0.0000 c=100
+
+item=GEAR_Anabiotics p=-408.3365,368.2021,530.7919 r=359.7437,134.4871,3.8834 c=100
+
+item=GEAR_PainkillerIbuprofen p=-421.7156,293.0418,742.7291 r=357.4860,183.4326,6.2807 c=100
+
+scene=AshWoodCabinA
+
+item=GEAR_PainkillerIbuprofen p=0.8152,1.3327,3.4721 r=-0.0000,34.4167,-0.0000 c=100
+
+scene=WoodCabinB
+
+
+scene=WoodCabinB
+
+scene=AshMine
+
+item=GEAR_BottleVitaminC p=-184.0454,-56.2273,198.6788 r=6.0151,121.7907,5.9726 c=100
+
+item=GEAR_PainkillerMorphineVial p=-147.7942,-54.8684,224.3193 r=10.9529,54.3065,354.2065 c=100
+
+scene=AshCaveA
+
+item=GEAR_PainkillerIbuprofen p=15.5098,-5.8339,60.4161 r=5.4548,192.9531,0.8015 c=100
+
+scene=BlackrockRegion
+
+item=GEAR_CigarettePackMarlboro p=896.6321,232.7713,-95.6818 r=354.0306,117.7706,3.2369 c=100
+
+item=GEAR_PainkillerIbuprofen p=801.6572,308.8177,704.7894 r=0.3153,300.6490,357.4190 c=100
+
+item=GEAR_BottleVitaminC p=682.3323,363.5070,904.7520 r=343.3710,0.7059,8.3234 c=100
+
+item=GEAR_SleepingPills p=849.8386,309.9643,351.0578 r=0.3124,250.2757,358.7867 c=100
+
+item=GEAR_BottleCaffeine p=323.9453,244.3089,-429.8044 r=349.0065,44.4806,1.1137 c=100
+
+
+
+item=GEAR_Anabiotics p=-1057.5659,75.2006,-75.9797 r=1.3522,178.4446,357.0997 c=100
+
+item=GEAR_CigarettePackMarlboro p=-701.2628,119.7066,-143.0161 r=9.5703,18.2994,15.0240 c=100
+
+item=GEAR_BottleCaffeine p=-817.6948,101.0798,428.0956 r=2.2310,136.7642,1.6433 c=100
+
+item=GEAR_PainkillerIbuprofen p=-797.6897,86.5345,418.6055 r=359.2792,180.8920,3.4191 c=100
+
+item=GEAR_BottleVitaminC p=-587.0118,79.5081,325.4655 r=359.9338,2.2438,1.6886 c=100
+
+scene=PrepperCacheDEmpty
+
+item=GEAR_FirstAidKitPainkiller p=1.5053,0.0301,-2.6554 r=0.0000,182.2581,0.0000 c=100
+
+scene=RadioControlHutC
+
+item=GEAR_SugarA p=-4.3674,1.0132,-2.0099 r=6.0299,191.8112,4.3279 c=100
+
+scene=BlackRockTrailerB
+
+item=GEAR_BottleVitaminC p=-6.2538,1.0102,1.9191 r=0.0000,320.7034,0.0000 c=100
+
+scene=BlackrockPowerplantA
+
+
+scene=BlackrockSteamTunnelsASurvival
+
+item=GEAR_SleepingPills p=-25.9078,0.2001,65.2839 r=-0.0000,86.4473,-0.0000 c=100
+
+item=GEAR_BottleVitaminC p=10.2703,1.3300,45.3627 r=-0.0000,91.2589,-0.0000 c=100
+
+item=GEAR_PainkillerIbuprofen p=-51.0749,0.2189,63.1421 r=-0.0000,48.3560,-0.0000 c=100
+
+scene=BlackrockPrisonSurvivalZone
+
+item=GEAR_BottleCaffeine p=-113.4868,227.3244,56.3922 r=-0.0000,146.0775,-0.0000 c=100
+
+item=GEAR_PainkillerMorphineVial p=-153.5370,230.0739,78.1731 r=-0.0000,10.4326,-0.0000 c=100
+
+
+item=GEAR_SugarA p=-107.3401,227.0870,109.5297 r=0.0000,323.0928,0.0000 c=100
+
+item=GEAR_CigarettePackMarlboro p=-111.2030,226.3138,111.8604 r=-0.0000,111.6674,-0.0000 c=100
+
+item=GEAR_BottleVitaminC p=-141.2806,233.6681,109.6632 r=-0.0000,99.0152,-0.0000 c=100
+
+item=GEAR_BottleCaffeine p=-217.0990,225.3536,62.1168 r=358.8777,0.3680,1.3536 c=100
+
+
+item=GEAR_CigarettePackOld p=-230.5275,235.1239,156.9440 r=0.0000,336.9500,0.0000 c=100
+
+item=GEAR_SugarA p=-190.3253,226.2977,5.4051 r=0.8101,306.3810,359.6298 c=100
+
+scene=BlackrockInteriorASurvival
+
+item=GEAR_Anabiotics p=0.3726,4.1445,-12.9030 r=0.0000,225.0654,0.0000 c=100
+
+item=GEAR_SleepingPills p=-10.7232,3.7885,-11.1341 r=0.0000,357.4949,0.0000 c=100
+
+item=GEAR_FirstAidKitPainkiller p=-9.4269,0.0180,-24.2403 r=0.0000,191.4137,0.0000 c=100
+
+
+item=GEAR_CigarettePackMarlboro p=32.0547,0.9676,5.0697 r=359.7485,120.0376,359.8644 c=100
+
+scene=BlackrockTransitionZone
+
+item=GEAR_BottleVitaminC p=443.4288,187.6055,-150.3769 r=359.1443,167.2158,351.4033 c=100
+
+item=GEAR_SleepingPills p=757.8702,244.5425,-161.3831 r=0.0000,212.2677,0.0000 c=100
+
+scene=CanyonRoadCave
+
+item=GEAR_BottleCaffeine p=86.3890,-10.6658,21.7403 r=351.6594,136.5721,352.2559 c=100
+
+item=GEAR_BottleVitaminC p=315.2157,71.6172,385.3753 r=-0.0000,111.8668,-0.0000 c=100
+
+item=GEAR_PainkillerIbuprofen p=392.9762,72.3398,435.3517 r=357.8530,357.0359,4.9869 c=100
+
+scene=TrailerE
+
+item=GEAR_SugarA p=2.7029,1.1489,1.6410 r=-0.0000,24.1771,-0.0000 c=100
+
+scene=ModPrecariousCauseway
+
+item=GEAR_BottleVitaminC p=953.4771,220.9510,2453.8779 r=-0.0000,114.5346,-0.0000 c=100
+
+
+item=GEAR_SleepingPills p=844.1757,221.0082,2244.2424 r=359.9328,186.4256,357.7173 c=100
+
+item=GEAR_BottleCaffeine p=983.6895,268.9483,2968.4885 r=0.0000,341.6087,0.0000 c=100
+
+
+item=GEAR_SugarA p=1236.7233,262.9495,3126.1108 r=0.6235,20.8549,359.4898 c=100
+
+scene=ModPrecariousCavern
+
+item=GEAR_SleepingPills p=-48.9506,-3.8927,-63.0294 r=1.3192,68.8032,6.1233 c=100
+
+scene=ModShatteredMarsh
+
+item=GEAR_BottleVitaminC p=757.5078,545.6624,5251.2012 r=-0.0000,23.3236,-0.0000 c=100
+
+item=GEAR_BottleCaffeine p=798.4743,518.5729,5263.2930 r=2.4312,357.8101,359.8305 c=100
+
+item=GEAR_SugarA p=759.2428,545.3810,5246.1968 r=0.0000,188.6095,0.0000 c=100
+
+
+item=GEAR_BottleCaffeine p=1650.3071,438.8063,4749.5396 r=-0.0000,49.2947,-0.0000 c=100
+
+item=GEAR_SugarA p=2466.6821,492.7749,4652.0840 r=-0.0000,32.5849,-0.0000 c=100
+
+item=GEAR_PainkillerIbuprofen p=2429.6479,490.7828,4731.8149 r=-0.0000,119.5141,-0.0000 c=100
+
+item=GEAR_PainkillerMorphineVial p=728.2630,440.7122,4725.7764 r=359.3564,216.1512,358.8622 c=100
+
+item=GEAR_BottleVitaminC p=2197.0715,438.1171,5409.0229 r=1.9158,345.0929,0.5771 c=100
+
+scene=ModProponentsReach
+
+item=GEAR_BottleCaffeine p=277.1242,130.4612,753.2433 r=-0.0000,55.6181,-0.0000 c=100
+
+item=GEAR_BottleVitaminC p=710.1035,134.1099,739.3721 r=0.0000,275.9447,0.0000 c=100
+
+item=GEAR_SugarA p=709.2631,133.2417,745.3970 r=-0.0000,115.2661,-0.0000 c=100
+
+
+item=GEAR_FirstAidKitPainkiller p=473.2826,190.0007,722.4986 r=359.9507,176.4127,1.9095 c=100
+
+item=GEAR_SleepingPills p=907.2932,148.2379,632.8983 r=0.2317,143.7759,358.4987 c=100
+
+scene=ModShatteredBunker
+
+item=GEAR_BottleVitaminC p=217.1694,82.0488,4.7337 r=-0.0000,175.9234,-0.0000 c=100
+
+item=GEAR_BottleCaffeine p=263.6748,78.9751,21.5655 r=-0.0000,163.6560,-0.0000 c=100
+
+item=GEAR_SugarA p=204.0633,81.9249,9.4777 r=0.0000,289.4139,0.0000 c=100
+
+item=GEAR_PainkillerIbuprofen p=197.3051,80.9755,12.2007 r=0.0000,347.0100,0.0000 c=100
+
+scene=ModCamperTrailers
+
+item=GEAR_BottleCaffeine p=-45.4972,1.3552,32.1793 r=-0.0000,73.0704,-0.0000 c=100
+
+item=GEAR_Anabiotics p=-48.3787,1.7119,28.1203 r=-0.0000,140.4748,-0.0000 c=100
+
+item=GEAR_CigarettePackMarlboro p=-41.1533,1.4872,33.1268 r=-0.0000,79.7920,-0.0000 c=100
+
+scene=ModRockyThoroughfare
+
+item=GEAR_CigarettePackMarlboro p=1190.6218,251.2551,1429.4557 r=0.0000,304.7073,0.0000 c=100
+
+item=GEAR_BottleCaffeine p=1087.1964,262.4989,1506.6713 r=2.6741,72.9024,355.5789 c=100
+
+item=GEAR_PainkillerIbuprofen p=899.9421,306.4072,1347.0729 r=355.5581,218.4590,357.8354 c=100
+
+item=GEAR_SugarA p=735.1911,263.4391,1205.8695 r=352.8890,37.1528,356.5572 c=100
+
+item=GEAR_PainkillerIbuprofen p=734.3649,269.4190,1596.8699 r=350.8707,107.4666,350.3949 c=100
+
+item=GEAR_SugarA p=-256.4890,260.7371,1430.4761 r=13.8237,133.0762,6.4366 c=100
+
+item=GEAR_SleepingPills p=-258.6013,260.9465,1434.8948 r=358.0968,272.9589,2.4415 c=100
+
+
+scene=ModResearchHabitat
+
+item=GEAR_SugarA p=-60.2812,1.5256,32.1334 r=0.0000,273.2083,0.0000 c=100
+
+item=GEAR_BottleVitaminC p=-53.2167,1.5208,27.1520 r=-0.0000,176.5216,-0.0000 c=100

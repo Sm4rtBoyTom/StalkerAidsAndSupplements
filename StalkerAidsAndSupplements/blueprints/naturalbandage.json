@@ -1,0 +1,33 @@
+{
+  "Name": "BLUEPRINT_NaturalBandage",
+  "RequiredGear": [
+    {
+      "Item": "GEAR_HeavyBandage",
+      "Count": 3,
+      "Units": "Count"
+    },
+    {
+      "Item": "GEAR_BurdockPrepared",
+      "Count": 3,
+      "Units": "Count"
+    }
+  ],
+  "RequiredPowder": [],
+  "RequiredLiquid": [
+    {
+      "Liquid": "LIQUID_CookingOil",
+      "VolumeInLitres": 0.25
+    }
+  ],
+  "RequiredTool": "",
+  "OptionalTools": [],
+  "RequiredCraftingLocation": "Anywhere",
+  "RequiresLitFire": false,
+  "RequiresLight": true,
+  "CraftedResult": "GEAR_NaturalBandage",
+  "CraftedResultCount": 2,
+  "DurationMinutes": 20,
+  "CraftingAudio": "Play_CraftingBurdockPrepared",
+  "AppliedSkill": "None",
+  "ImprovedSkill": "None"
+}
