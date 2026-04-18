@@ -3,12 +3,12 @@
   "RequiredGear": [
     {
       "Item": "GEAR_HeavyBandage",
-      "Count": 3,
+      "Count": 1,
       "Units": "Count"
     },
     {
       "Item": "GEAR_BurdockPrepared",
-      "Count": 3,
+      "Count": 1,
       "Units": "Count"
     }
   ],
@@ -16,7 +16,7 @@
   "RequiredLiquid": [
     {
       "Liquid": "LIQUID_CookingOil",
-      "VolumeInLitres": 0.25
+      "VolumeInLitres": 0.05
     }
   ],
   "RequiredTool": "",
@@ -25,8 +25,8 @@
   "RequiresLitFire": false,
   "RequiresLight": true,
   "CraftedResult": "GEAR_NaturalBandage",
-  "CraftedResultCount": 2,
-  "DurationMinutes": 20,
+  "CraftedResultCount": 1,
+  "DurationMinutes": 10,
   "CraftingAudio": "Play_CraftingBurdockPrepared",
   "AppliedSkill": "None",
   "ImprovedSkill": "None"
