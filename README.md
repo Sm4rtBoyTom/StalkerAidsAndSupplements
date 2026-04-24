@@ -18,11 +18,11 @@ This mod was also heavily inspired by the S.T.A.L.K.E.R series.
 
 ### Installation
 
-**Install** [[Modcomponent](https://github.com/dommrogers/ModComponent)] **and it's dependencies.**
+**Install** [Modcomponent](https://github.com/dommrogers/ModComponent) **and it's dependencies.**
 
-**Install** [[ModSettings](https://github.com/DigitalzombieTLD/ModSettings/)] **and it's dependencies.**
+**Install** [ModSettings](https://github.com/DigitalzombieTLD/ModSettings/) **and it's dependencies.**
 
-**Install** [[Alcohol Mod](https://github.com/No3371/AlcoholMod)] **and it's dependencies for better experience.**
+**Install** [Alcohol Mod](https://github.com/No3371/AlcoholMod) **and it's dependencies for better experience.**
 
 - **Extract the** **.modcomponent and .dll** **files from the .zip file and put both files into your mods folder**.
 - **Enjoy**!
