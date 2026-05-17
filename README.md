@@ -69,8 +69,3 @@ A video game developed by [Hinterland Games](https://hinterlandgames.com/).**
   > Note: If you don't see your name in the contributors list and wish to be mentioned, please let me know via DM on Discord.
 
   ### Big thanks to the wonderful TLD Modding community that helped me make all this possible.
-  
-test
-
-<details>
-    <summary>General Features</summary>
