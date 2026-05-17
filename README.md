@@ -7,8 +7,23 @@ A video game developed by [Hinterland Games](https://hinterlandgames.com/).**
 
 -----
 
+## **Features**
+
+ StalkerAidsAndSupplemets is a modification that expands on The Long Dark's First Aid system.
+ > This mod was heavily inspired by the S.T.A.L.K.E.R franchise and its community made projects _(Anomaly/GAMMA)_. If I did not have the opportunity to play S.T.A.L.K.E.R. this mod would not exist.
+  
+  - **New Medical Items:** Burdock dressing, ibuprofen, morphine, first aid kit, sleeping pills.
+  - **Tweaks of existing mechanics/items:** Vitamin-C and caffeine tablets in the world, improved energy drink, Infection changes, ModSettings.
+  - **Food/Drink Sweetening:** New mechanic allowing sweetening of foods and drink with jam or sugar.
+  - **Smoking Mechanic:** Smoking, new high risk high reward mechanic, comes with it's own custom afflictions.
+  - **And more!**
+
+
 > [!TIP]
 > **For detailed explanation and description of the mods features please visit the mod's [Wiki](https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements/wiki)**
+
+> [!CAUTION]
+> The mod should be compatible with most mods, however I can't rule out potential conflict with other mods that add or affect afflictions.
 
 ## **Required Dependencies**
 
