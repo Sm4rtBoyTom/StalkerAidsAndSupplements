@@ -34,7 +34,7 @@ For this mod to work, ensure you have the following mods below:
   
 -----
 
-  ### **Installation**
+  ## **Installation**
   
   - **Put all of the dependencies in your mods folder.**
   - **Download both the `StalkerAidsAndSupplements.dll` and `StalkerAidsAndSupplements.modcomponent` paste them in your mods folder.**
@@ -49,6 +49,9 @@ For this mod to work, ensure you have the following mods below:
   > 
   > - **[TLD Cigarettes](https://github.com/Atlas-Lumi/TLD-Cigarettes) - by Atlas-Lumi and Thekillergreece**
 
+-----
+
+## **Contributions**
 
 test
 
