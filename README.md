@@ -1,28 +1,31 @@
-![Thumb_MoreMeds](https://github.com/user-attachments/assets/afdc3ffc-ba41-4ced-8338-b77c81f905d9)
-
 **StalkerAidsAndSupplements is a mod for [The Long Dark](https://www.thelongdark.com). 
 A video game developed by [Hinterland Games](https://hinterlandgames.com/).**
 
-### Attention!!!
-
-Make Absolutely sure that you don't have this mod installed twice, if you're updating from an older version make absolutely
-sure that you deleted the MoreMeds.modcomponent file, before installing the newest one.
-
 ### StalkerAids&Supplements
 
-a mod for The Long Dark, that adds Various new Medical/Food Items, gameplay features and changes to the base game.
-This mod was also heavily inspired by the S.T.A.L.K.E.R series.
+- **This mod replaces the following mods:**
+  - [TLD Morphine](https://github.com/Atlas-Lumi/TLD-Morphine) - by **Atlas-Lumi** and **Thekillergreece**
+  - [TLD Cigarettes](https://github.com/Atlas-Lumi/TLD-Cigarettes) - by **Atlas-Lumi** and **Thekillergreece**
 
 ### For Newest Information look into Release Notes!
 
-
 ### Installation
 
-**Install** [Modcomponent](https://github.com/dommrogers/ModComponent) **and it's dependencies.**
+**Install following dependencies:**
 
-**Install** [ModSettings](https://github.com/DigitalzombieTLD/ModSettings/) **and it's dependencies.**
+- [Modcomponent](https://github.com/dommrogers/ModComponent) **- and it's dependencies.**
 
-**Install** [Alcohol Mod](https://github.com/No3371/AlcoholMod) **and it's dependencies for better experience.**
+- [ModSettings](https://github.com/DigitalzombieTLD/ModSettings/)
 
-- **Extract the** **.modcomponent and .dll** **files from the .zip file and put both files into your mods folder**.
-- **Enjoy**!
+- [ModData](https://github.com/dommrogers/ModData)
+
+- [Moment](https://github.com/No3371/TLD-Moment) **- and it's dependencies.**
+
+- [AfflictionComponent](https://github.com/TLD-Mods/AfflictionComponent) **- and it's dependencies.**
+
+- [AlcoholMod](https://github.com/No3371/AlcoholMod) **- Optional, but highly recommended. (some features may not works as intended without it)**
+
+  - **Put all of the dependencies in your mods folder.**
+  - **Put both the .dll and .modcomponent files in your mods folder.**
+    - **Congratulations, you can now successfully launch the game, enjoy!**
+
