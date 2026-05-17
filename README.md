@@ -43,7 +43,7 @@ A video game developed by [Hinterland Games](https://hinterlandgames.com/).**
   > - **[TLD Cigarettes](https://github.com/Atlas-Lumi/TLD-Cigarettes) - by Atlas-Lumi and Thekillergreece**
 
 > [!IMPORTANT]
-> **Since version 4.0.0 this mod has been partially developed with the assistance of LLMs.** _(Large Language Models / AI tools)_
+> **Since version 4.0.0 this mod has been partially developed with the assistance of LLMs.** _(AI tools)_
 > **LLMs were specifically used for debugging assistance, partial code structuring and support during the implementation of timed events.**
 > **Mod design, balancing, assets and remaining code and implementation were completely made by human dev.**
 
