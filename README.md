@@ -18,7 +18,6 @@ A video game developed by [Hinterland Games](https://hinterlandgames.com/).**
   - **Smoking Mechanic:** Smoking, new high risk high reward mechanic, comes with it's own custom afflictions.
   - **And more!**
 
-
 > [!TIP]
 > **For detailed explanation and description of the mods features please visit the mod's [Wiki](https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements/wiki)**
 
@@ -49,7 +48,6 @@ A video game developed by [Hinterland Games](https://hinterlandgames.com/).**
   - **Download both the `StalkerAidsAndSupplements.dll` and `StalkerAidsAndSupplements.modcomponent` paste them in your mods folder.**
     - **Congratulations, you can now successfully launch the game, enjoy!**
 
-
 > [!NOTE]
 > **This mod replaces the following mods:**
 > 
@@ -70,7 +68,6 @@ A video game developed by [Hinterland Games](https://hinterlandgames.com/).**
   > Note: If you don't see your name in the contributors list and wish to be mentioned, please let me know via DM on Discord.
 
   ### Big thanks to the wonderful TLD Modding community that helped me make all this possible.
-
 
 > [!IMPORTANT]
 > **Since version 4.0.0 this mod has been partially developed with the assistance of LLMs.** _(AI tools)_
