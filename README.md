@@ -42,11 +42,6 @@ A video game developed by [Hinterland Games](https://hinterlandgames.com/).**
   > 
   > - **[TLD Cigarettes](https://github.com/Atlas-Lumi/TLD-Cigarettes) - by Atlas-Lumi and Thekillergreece**
 
-> [!IMPORTANT]
-> **Since version 4.0.0 this mod has been partially developed with the assistance of LLMs.** _(AI tools)_
-> **LLMs were specifically used for debugging assistance, partial code structuring and support during the implementation of timed events.**
-> **Mod design, balancing, assets and remaining code and implementation were completely made by human dev.**
-
 ## **Contributions**
 
 ### Special thanks to:
@@ -54,8 +49,15 @@ A video game developed by [Hinterland Games](https://hinterlandgames.com/).**
 - [**deepsnowland**](https://github.com/deepsnowland) - For providing Japanese translations.
 - [**Elderly-Emre**](https://github.com/Elderly-Emre) - For providing Turkish translations.
 - [**LettereUniche**](https://github.com/LettereUniche) - For providing Italian translations.
+- **Tanui** - For providing Polish translations.
 - [**WPNsmglr**](https://github.com/WPNsmglr) - For providing Traditional Chinese translations.
   
   > Note: If you don't see your name in the contributors list and wish to be mentioned, please let me know via DM on Discord.
 
   ### Big thanks to the wonderful TLD Modding community that helped me make all this possible.
+
+
+> [!IMPORTANT]
+> **Since version 4.0.0 this mod has been partially developed with the assistance of LLMs.** _(AI tools)_
+> **LLMs were specifically used for debugging assistance, partial code structuring and support during the implementation of timed events.**
+> **Mod design, balancing, assets and remaining code and implementation were completely made by human dev.**
