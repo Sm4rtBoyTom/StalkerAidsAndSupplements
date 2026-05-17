@@ -1,0 +1,45 @@
+{
+  "ModStackableBehaviour": {
+    "SingleUnitTextId": "GAMEPLAY_CigaretteSingle",
+    "MultipleUnitTextId": "GAMEPLAY_CigaretteMultiple",
+    "StackSprite": "",
+    "UnitsPerItem": 6,
+    "ChanceFull": 50.0,
+    "ShareStackWithGear": [],
+    "InstantiateStackItem": "GEAR_CigarettePackOld",
+    "StackConditionDifferenceConstraint": 0.0
+  },
+  "ModGenericComponent": {
+    "DisplayNameLocalizationId": "GAMEPLAY_CigarettePackOld",
+    "DescriptionLocalizatonId": "GAMEPLAY_CigarettePackOldDescription",
+    "InventoryActionLocalizationId": "",
+    "WeightKG": 0.1,
+    "DaysToDecay": 0,
+    "MaxHP": 100.0,
+    "InitialCondition": "Perfect",
+    "InventoryCategory": "FirstAid",
+    "PickUpAudio": "Play_SndInvCardboardBoxSmall",
+    "PutBackAudio": "Play_SndInvCardboardBoxSmall",
+    "StowAudio": "Play_InventoryStow",
+    "WornOutAudio": "",
+    "InspectOnPickup": true,
+    "InspectDistance": 0.35,
+    "InspectAngles": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "InspectOffset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "InspectScale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "NormalModel": "",
+    "InspectModel": ""
+  }
+}
