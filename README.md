@@ -2,14 +2,14 @@
   
   -----
   
-**StalkerAidsAndSupplements is a mod for [The Long Dark](https://www.thelongdark.com). 
+**StalkerAids&Supplements is a mod for [The Long Dark](https://www.thelongdark.com). 
 A video game developed by [Hinterland Games](https://hinterlandgames.com/).**
 
 -----
 
 ## **Features**
 
- StalkerAidsAndSupplemets is a modification that expands on The Long Dark's First Aid system.
+ StalkerAids&Supplemets is a modification that expands on The Long Dark's First Aid system.
  > This mod was heavily inspired by the S.T.A.L.K.E.R franchise and its community made projects _(Anomaly/GAMMA)_. If I did not have the opportunity to play S.T.A.L.K.E.R. this mod would not exist.
   
   - **New Medical Items:** Burdock dressing, ibuprofen, morphine, first aid kit, sleeping pills.
