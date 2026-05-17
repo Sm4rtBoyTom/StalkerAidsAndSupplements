@@ -9,6 +9,8 @@ A video game developed by [Hinterland Games](https://hinterlandgames.com/).**
 
 ### For Newest Information look into Release Notes!
 
+### - **For detailed explanation and description of the mods features please visit the** [Github Wiki](https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements/wiki)
+
 ### Installation
 
 **Install following mods:**
