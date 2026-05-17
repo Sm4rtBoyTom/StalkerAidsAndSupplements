@@ -1,12 +1,7 @@
-
-<div align="center"> 
+  <img width="1920" height="1080" alt="MoreMeds" src="https://github.com/user-attachments/assets/93524b81-c104-4d42-9494-1a4c8298fd73" />
   
-#  **StalkerAids&Supplements**
+  -----
   
-</div>
-
------
-
 **StalkerAidsAndSupplements is a mod for [The Long Dark](https://www.thelongdark.com). 
 A video game developed by [Hinterland Games](https://hinterlandgames.com/).**
 
