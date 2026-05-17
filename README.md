@@ -5,8 +5,13 @@
   
 </div>
 
+-----
+
 **StalkerAidsAndSupplements is a mod for [The Long Dark](https://www.thelongdark.com). 
 A video game developed by [Hinterland Games](https://hinterlandgames.com/).**
+
+-----
+
 
 -----
 
@@ -16,7 +21,8 @@ A video game developed by [Hinterland Games](https://hinterlandgames.com/).**
 -----
 
 ### **Required Dependencies**
-For this mod to work, ensure you have the following mods below:
+
+#### For this mod to work, ensure you have the following mods below:
 
 - **[Modcomponent](https://github.com/dommrogers/ModComponent) - and it's dependencies. (Required)**
 
@@ -53,6 +59,17 @@ For this mod to work, ensure you have the following mods below:
 
 ## **Contributions**
 
+### Special thanks to:
+- [**AcordUch**](https://github.com/AcordUch) - For providing Russian translations.
+- [**deepsnowland**](https://github.com/deepsnowland) - For providing Japanese translations.
+- [**Elderly-Emre**](https://github.com/Elderly-Emre) - For providing Turkish translations.
+- [**LettereUniche**](https://github.com/LettereUniche) - For providing Italian translations.
+- [**WPNsmglr**](https://github.com/WPNsmglr) - For providing Traditional Chinese translations.
+  
+  > Note: If you don't see your name in the contributors list and wish to be mentioned, please let me know via DM on Discord.
+
+  ### Big thanks to the wonderful TLD Modding community that helped me make all this possible.
+  
 test
 
 <details>
