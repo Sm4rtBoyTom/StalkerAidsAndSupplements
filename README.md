@@ -11,19 +11,21 @@ A video game developed by [Hinterland Games](https://hinterlandgames.com/).**
 
 ### Installation
 
-**Install following dependencies:**
+**Install following mods:**
 
-- [Modcomponent](https://github.com/dommrogers/ModComponent) **- and it's dependencies.**
+- [Modcomponent](https://github.com/dommrogers/ModComponent) **- and it's dependencies. (Required)**
 
-- [ModSettings](https://github.com/DigitalzombieTLD/ModSettings/)
+- [ModSettings](https://github.com/DigitalzombieTLD/ModSettings/) **(Required)**
 
-- [ModData](https://github.com/dommrogers/ModData)
+- [ModData](https://github.com/dommrogers/ModData) **(Required)**
 
-- [Moment](https://github.com/No3371/TLD-Moment) **- and it's dependencies.**
+- [Moment](https://github.com/No3371/TLD-Moment) **- and it's dependencies. (Required)**
 
-- [AfflictionComponent](https://github.com/TLD-Mods/AfflictionComponent) **- and it's dependencies.**
+- [AfflictionComponent](https://github.com/TLD-Mods/AfflictionComponent) **- and it's dependencies. (Required)**
 
-- [AlcoholMod](https://github.com/No3371/AlcoholMod) **- Optional, but highly recommended. (some features may not works as intended without it)**
+- [AlcoholMod](https://github.com/No3371/AlcoholMod) **- Optional, but highly recommended.**  _(some features may not work as intended without it)_
+
+- [ItemRarities](https://github.com/Deaadman/item-rarities) **(Optional)**
 
   - **Put all of the dependencies in your mods folder.**
   - **Put both the .dll and .modcomponent files in your mods folder.**
