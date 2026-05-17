@@ -66,6 +66,8 @@ A video game developed by [Hinterland Games](https://hinterlandgames.com/).**
 - [**WPNsmglr**](https://github.com/WPNsmglr) - For providing Traditional Chinese translations.
   
   > Note: If you don't see your name in the contributors list and wish to be mentioned, please let me know via DM on Discord.
+  
+   [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q31UDW4J)
 
   ### Big thanks to the wonderful TLD Modding community that helped me make all this possible.
 
