@@ -21,6 +21,9 @@ A video game developed by [Hinterland Games](https://hinterlandgames.com/).**
 > [!TIP]
 > **For detailed explanation and description of the mods features please visit the mod's [Wiki](https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements/wiki)**
 
+> [!NOTE]
+> Since version 3.0.0 this mod is compatible with Improved Afflictions blood drug level mechanic!
+
 > [!CAUTION]
 > The mod should be compatible with most mods, however I can't rule out potential conflict with other mods that add or affect afflictions.
 
