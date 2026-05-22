@@ -1,0 +1,45 @@
+{
+  "ModGenericComponent": {
+    "DisplayNameLocalizationId": "GAMEPLAY_PainkillerMorphineVial",
+    "DescriptionLocalizatonId": "GAMEPLAY_PainkillerMorphineVialDescription",
+    "InventoryActionLocalizationId": "",
+    "WeightKG": 0.35,
+    "DaysToDecay": 1000,
+    "MaxHP": 100.0,
+    "InitialCondition": "Random",
+    "InventoryCategory": "FirstAid",
+    "PickUpAudio": "Play_CoffeeCupPickup",
+    "PutBackAudio": "Play_CoffeeCupPutDown",
+    "StowAudio": "Play_InventoryStow",
+    "WornOutAudio": "",
+    "InspectOnPickup": true,
+    "InspectDistance": 0.5,
+    "InspectAngles": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "InspectOffset": [
+      -0.05,
+      0.0,
+      0.0
+    ],
+    "InspectScale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "NormalModel": "",
+    "InspectModel": ""
+  },
+  "ModStackableBehaviour": {
+    "SingleUnitTextId": "GAMEPLAY_DoseSingle",
+    "MultipleUnitTextId": "GAMEPLAY_DoseMultiple",
+    "StackSprite": "ico_units_pill",
+    "UnitsPerItem": 3,
+    "ChanceFull": 100.0,
+    "ShareStackWithGear": [],
+    "InstantiateStackItem": "GEAR_PainkillerMorphineVial",
+    "StackConditionDifferenceConstraint": 0.0
+  }
+}

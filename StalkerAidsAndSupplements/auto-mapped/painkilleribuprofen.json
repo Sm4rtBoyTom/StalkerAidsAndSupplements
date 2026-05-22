@@ -1,0 +1,52 @@
+{
+  "ModFirstAidComponent": {
+    "DisplayNameLocalizationId": "GAMEPLAY_PainkillerIbuprofen",
+    "DescriptionLocalizatonId": "GAMEPLAY_PainkillerIbuprofenDescription",
+    "InventoryActionLocalizationId": "",
+    "WeightKG": 0.1,
+    "DaysToDecay": 1000,
+    "MaxHP": 100.0,
+    "InitialCondition": "Random",
+    "InventoryCategory": "FirstAid",
+    "PickUpAudio": "Play_SndInvPillsSmall",
+    "PutBackAudio": "Play_SndInvPillsSmall",
+    "StowAudio": "Play_InventoryStow",
+    "WornOutAudio": "",
+    "InspectOnPickup": true,
+    "InspectDistance": 0.35,
+    "InspectAngles": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "InspectOffset": [
+      0.0,
+      -0.05,
+      0.0
+    ],
+    "InspectScale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "NormalModel": "",
+    "InspectModel": "",
+    "ProgressBarMessage": "",
+    "RemedyText": "",
+    "InstantHealing": 0,
+    "FirstAidType": "Painkiller",
+    "TimeToUseSeconds": 2,
+    "UnitsPerUse": 2,
+    "UseAudio": "Play_FirstAidPills"
+  },
+  "ModStackableBehaviour": {
+    "SingleUnitTextId": "GAMEPLAY_PillSingle",
+    "MultipleUnitTextId": "GAMEPLAY_PillMultiple",
+    "StackSprite": "ico_units_pill",
+    "UnitsPerItem": 6,
+    "ChanceFull": 0.0,
+    "ShareStackWithGear": [],
+    "InstantiateStackItem": "GEAR_PainKillerIbuprofen",
+    "StackConditionDifferenceConstraint": 0.01
+  }
+}
