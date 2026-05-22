@@ -103,13 +103,17 @@ namespace StalkerAidsAndSupplementsMod.Afflictions
                 {
                     return;
                 }
+                else if (manager.HasAfflictionOfType(typeof(CigaretteBuff)) && manager.HasAfflictionOfType(typeof(AddictionRisk)))
+                {
+                    __result *= 0.5f;
+                }
                 else if (manager.HasAfflictionOfType(typeof(NicotineAddiction)))
                 {
-                    __result *= 1.33f;
+                    __result *= 1.5f;
                 }
                 else if (manager.HasAfflictionOfType(typeof(CigaretteBuff)))
                 {
-                    __result *= 0.9f;
+                    __result *= 0.75f;
                 }
             }
         }
@@ -168,12 +172,67 @@ namespace StalkerAidsAndSupplementsMod.Afflictions
                 }
             }
         }
+        [HarmonyPatch(typeof(BowItem), nameof(BowItem.GetStaminaDropThresholdPercent))]
+        internal static class ReducedAimDurationPatchBow
+        {
+            private static void Postfix(ref float __result)
+            {
+                AfflictionManager manager = AfflictionManager.GetAfflictionManagerInstance();
+                if (manager == null)
+                    return;
+
+                if (manager.HasAfflictionOfType(typeof(LungDamage)))
+                {
+                    __result *= 1.5f;
+                }
+                else if (manager.HasAfflictionOfType(typeof(MinorLungDamage)))
+                {
+                    __result *= 1.33f;
+                }
+            }
+        }
         [HarmonyPatch(typeof(GunItem), nameof(GunItem.Update))]
         internal static class IncreasedSwayPatch
         {
             private static readonly float BASE_INCREASE = 0.1f;
             private static readonly float BASE_DECREASE = 0.15f;
-            private static void Postfix(GunItem __instance)
+            private static void Postfix(BowItem __instance)
+            {
+                if (__instance == null) return;
+
+                float increase = BASE_INCREASE;
+                float decrease = BASE_DECREASE;
+
+                AfflictionManager manager = AfflictionManager.GetAfflictionManagerInstance();
+                if (manager == null)
+                    return;
+
+                if (manager.HasAfflictionOfType(typeof(LungDamage)))
+                {
+                    increase *= 1.33f;
+                    decrease *= 0.66f;
+                }
+                else if (manager.HasAfflictionOfType(typeof(MinorLungDamage)))
+                {
+                    increase *= 1.15f;
+                    decrease *= 0.85f;
+                }
+                else if (manager.HasAfflictionOfType(typeof(NicotineAddiction)))
+                {
+                    increase *= 1.5f;
+                    decrease *= 0.5f;
+                }
+
+                if (__instance.m_SwayIncreasePerSecond != increase) __instance.m_SwayIncreasePerSecond = increase;
+                if (__instance.m_SwayDecreasePerSecond != decrease) __instance.m_SwayDecreasePerSecond = decrease;
+            }
+        }
+        [HarmonyPatch(typeof(BowItem), nameof(BowItem.Update))]
+        internal static class IncreasedSwayPatchBow
+        {
+            private static readonly float BASE_INCREASE = 0.1f;
+            private static readonly float BASE_DECREASE = 0.15f;
+            private static void Postfix(BowItem __instance)
             {
                 if (__instance == null) return;
 
@@ -286,11 +345,11 @@ namespace StalkerAidsAndSupplementsMod.Afflictions
 
                 if (manager.HasAfflictionOfType(typeof(LungDamage)))
                 {
-                    __result -= 10f;
+                    __result -= 15f;
                 }
                 else if (manager.HasAfflictionOfType(typeof(MinorLungDamage)))
                 {
-                    __result -= 5f;
+                    __result -= 10f;
                 }
             }
         }

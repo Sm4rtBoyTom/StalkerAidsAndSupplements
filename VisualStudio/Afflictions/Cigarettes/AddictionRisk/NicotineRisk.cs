@@ -15,6 +15,7 @@ namespace StalkerAidsAndSupplementsMod.Afflictions
             location: AfflictionBodyArea.Head)
         {
             SmokingDataManager.Instance.ScheduleCureEvents("AddictionRisk");
+            GameManager.SaveGame();
         }
         public InstanceType Type { get; set; } = InstanceType.Single;
         public bool Risk { get; set; } = true;

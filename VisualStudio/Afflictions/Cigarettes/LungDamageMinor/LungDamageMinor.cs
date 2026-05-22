@@ -14,6 +14,7 @@ namespace StalkerAidsAndSupplementsMod.Afflictions
             spriteName: "ico_injury_suffocation",
             location: AfflictionBodyArea.Chest)
         {
+            GameManager.SaveGame();
         }
         public InstanceType Type { get; set; } = InstanceType.Single;
         public override void OnUpdate() { }

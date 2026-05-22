@@ -20,7 +20,6 @@ namespace StalkerAidsAndSupplementsMod
             {
                 return;
             }
-
             FoodItem food = __instance.gameObject.GetComponent<FoodItem>();
             if (food != null)
             {
@@ -29,36 +28,36 @@ namespace StalkerAidsAndSupplementsMod
 
                 if (name.Contains("GEAR_CookedBannockAcornJam"))
                 {
-                    food.m_CaloriesTotal = Settings.instance.JamCalories + 250;
-                    food.m_CaloriesRemaining = Settings.instance.JamCalories + 250;
-                    food.m_Nutrients = StalkerAidsAndSupplementsUtils.VitC(Settings.instance.VitaminCJam);
+                    food.m_CaloriesTotal = Settings.instance.JamCalories * 2 + 250;
+                    food.m_CaloriesRemaining = Settings.instance.JamCalories * 2 + 250;
+                    food.m_Nutrients = StalkerAidsAndSupplementsUtils.VitC(Settings.instance.VitaminCJam * 2);
                 }
                 if (name.Contains("GEAR_CookedBannockAcornSugar"))
+                {
+                    food.m_CaloriesTotal = 350;
+                    food.m_CaloriesRemaining = 350;
+                }
+                if (name.Contains("GEAR_CookedBannockJam"))
+                {
+                    food.m_CaloriesTotal = Settings.instance.JamCalories * 2 + 200;
+                    food.m_CaloriesRemaining = Settings.instance.JamCalories * 2 + 200;
+                    food.m_Nutrients = StalkerAidsAndSupplementsUtils.VitC(Settings.instance.VitaminCJam * 2);
+                }
+                if (name.Contains("GEAR_CookedBannockSugar"))
                 {
                     food.m_CaloriesTotal = 300;
                     food.m_CaloriesRemaining = 300;
                 }
-                if (name.Contains("GEAR_CookedBannockJam"))
-                {
-                    food.m_CaloriesTotal = Settings.instance.JamCalories + 200;
-                    food.m_CaloriesRemaining = Settings.instance.JamCalories + 200;
-                    food.m_Nutrients = StalkerAidsAndSupplementsUtils.VitC(Settings.instance.VitaminCJam);
-                }
-                if (name.Contains("GEAR_CookedBannockSugar"))
-                {
-                    food.m_CaloriesTotal = 250;
-                    food.m_CaloriesRemaining = 250;
-                }
                 if (name.Contains("GEAR_CookedPorridgeJam"))
                 {
-                    food.m_CaloriesTotal = Settings.instance.JamCalories + 350;
-                    food.m_CaloriesRemaining = Settings.instance.JamCalories + 350;
-                    food.m_Nutrients = StalkerAidsAndSupplementsUtils.VitC(Settings.instance.VitaminCJam);
+                    food.m_CaloriesTotal = Settings.instance.JamCalories * 2 + 350;
+                    food.m_CaloriesRemaining = Settings.instance.JamCalories * 2 + 350;
+                    food.m_Nutrients = StalkerAidsAndSupplementsUtils.VitC(Settings.instance.VitaminCJam * 2);
                 }
                 if (name.Contains("GEAR_CookedPorridgeSugar"))
                 {
-                    food.m_CaloriesTotal = 420;
-                    food.m_CaloriesRemaining = 420;
+                    food.m_CaloriesTotal = 490;
+                    food.m_CaloriesRemaining = 490;
                 }
             }
             if (lower.Contains("sugar"))

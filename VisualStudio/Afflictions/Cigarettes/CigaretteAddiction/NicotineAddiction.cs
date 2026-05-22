@@ -15,6 +15,7 @@ namespace StalkerAidsAndSupplementsMod.Afflictions
             location: AfflictionBodyArea.Head)
         {
             SmokingDataManager.Instance.ScheduleCureEvents("NicotineAddiction");
+            GameManager.SaveGame();
         }
         public InstanceType Type { get; set; } = InstanceType.Single;
         public Tuple<string, int, int>[] RemedyItems { get; set; } = Array.Empty<Tuple<string, int, int>>();

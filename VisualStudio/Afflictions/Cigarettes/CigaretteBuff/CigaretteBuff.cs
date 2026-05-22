@@ -27,7 +27,7 @@ namespace StalkerAidsAndSupplementsMod.Afflictions
     spriteName: "ico_injury_warmingUp",
     location: AfflictionBodyArea.Head)
         {
-            Duration = 3f;
+            Duration = Settings.instance.BuffDuration;
         }
         public override void OnUpdate() { }
         public void OnCure() {}

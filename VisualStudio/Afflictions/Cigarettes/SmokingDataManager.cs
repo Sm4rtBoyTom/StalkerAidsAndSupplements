@@ -19,8 +19,8 @@ namespace StalkerAidsAndSupplementsMod.Afflictions
         internal static int cigarettesWhileAddicted = 0;
         internal static float firstCigaretteTime = 0f;
 
-        private const float TIME_WINDOW = 720f; //30 Day time window       
-        private const int MINOR_LUNG_THRESHOLD = 180;
+        private const float TIME_WINDOW = 720f;        
+        private const int MINOR_LUNG_THRESHOLD = 150;
 
         private bool addictionPending = false; // tracks the 24 hour delay
 
@@ -199,6 +199,11 @@ namespace StalkerAidsAndSupplementsMod.Afflictions
                 case "insomniaCheck":
                     if (manager.HasAfflictionOfType(typeof(NicotineAddiction)))
                     {
+                        if (GameManager.GetInsomniaComponent().HasInsomniaAffliction())
+                        {
+                            return;
+                        }
+
                         float roll = UnityEngine.Random.Range(0f, 100f);
 
                         if (roll < 25f)

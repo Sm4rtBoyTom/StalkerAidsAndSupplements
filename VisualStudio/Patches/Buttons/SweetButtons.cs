@@ -8,31 +8,25 @@
 
         private static string buttonTextKey = "GAMEPLAY_SweetButton";
 
-        private static int sugarUnitsToUse = 2; 
-        private static int jamPortionsToUse = 1;
+        private static int sugarUnitsDrink = 2;
+        private static int jamPortionsDrink = 1;
+        private static int sugarUnitsFood = 5;
+        private static int jamPortionsFood = 2;
 
-        private static int GetSugarAmount(string itemName)
-        {
-            string lower = itemName.ToLowerInvariant();
-
-            return 2;  //else consume 2 tsp
-        }
         //List of items with button function
         private static readonly string[] AllowedFoodItems =
         {
             "GEAR_CookedPorridge",
             "GEAR_CookedBannock",
             "GEAR_CookedBannockAcorn",
-
-            //Drinks
+        };
+        private static readonly string[] AllowedDrinkItems =
+        {
             "GEAR_GreenTeaCup",
             "GEAR_BirchbarkTea",
             "GEAR_BurdockTea",
             "GEAR_ReishiTea",
             "GEAR_RoseHipTea",
-
-            // PineNeedleTeaMod
-         // "GEAR_PineNeedleTea",
         };
         private static readonly string[] sugarOnlyItems =
         {
@@ -47,6 +41,15 @@
    //         "GEAR_CookedApplePie",
    //         "GEAR_Cookies"
         };
+        private static bool IsFoodItem(string gearName)
+        {
+            foreach (string item in AllowedFoodItems)
+            {
+                if (gearName.Contains(item))
+                    return true;
+            }
+            return false;
+        }
         internal static void InitializeItemDescriptionPage(ItemDescriptionPage itemDescriptionPage)
         {
             sweetText = Localization.Get("GAMEPLAY_SweetButton");
@@ -74,7 +77,6 @@
                 UILabel label = Utils.GetComponentInChildren<UILabel>(sweetenButton);
                 if (label != null)
                 {
-                    // Set the text every time the button is shown
                     label.text = Localization.Get(buttonTextKey);
                 }
             }
@@ -88,6 +90,14 @@
             }
 
             foreach (string item in AllowedFoodItems)
+            {
+                if (gearName.Contains(item))
+                {
+                    return true;
+                }
+            }
+
+            foreach (string item in AllowedDrinkItems)
             {
                 if (gearName.Contains(item))
                 {
@@ -160,18 +170,18 @@
                 }
             }
 
-            int sugarNeeded = GetSugarAmount(foodItem.name);
+            bool isFood = IsFoodItem(foodItem.name);
+            int sugarNeeded = isFood ? sugarUnitsFood : sugarUnitsDrink;
+            int jamNeeded = isFood ? jamPortionsFood : jamPortionsDrink;
 
             bool hasSugar = GameManager.GetInventoryComponent().GearInInventory("GEAR_SugarA", sugarNeeded);
-            bool hasJam = GameManager.GetInventoryComponent().GearInInventory("GEAR_RosehipJam", jamPortionsToUse);
-            bool isSugarOnly = IsSugarOnly(foodItem.name);
-            bool isJamOnly = IsJamOnly(foodItem.name);
+            bool hasJam = GameManager.GetInventoryComponent().GearInInventory("GEAR_RosehipJam", jamNeeded);
 
             // Store food data
             string originalName = foodItem.name;
             float condition = foodItem.CurrentHP;
 
-            if (isSugarOnly)
+            if (IsSugarOnly(foodItem.name))
             {
                 if (hasSugar)
                 {
@@ -185,11 +195,11 @@
                 return;
             }
 
-            if (isJamOnly)
+            if (IsJamOnly(foodItem.name))
             {
                 if (hasJam)
                 {
-                    UseJam(originalName, condition);
+                    UseJam(originalName, condition, jamNeeded);
                 }
                 else
                 {
@@ -201,7 +211,7 @@
 
             if (hasJam)
             {
-                UseJam(originalName, condition);
+                UseJam(originalName, condition, jamNeeded);
             }
             else if (hasSugar)
             {
@@ -240,9 +250,9 @@
             tempCondition = condition;
             tempStackCount = stackCount;
         }
-        private static void UseJam(string originalName, float condition)
+        private static void UseJam(string originalName, float condition, int jamAmount)
         {
-            if (!GameManager.GetInventoryComponent().GearInInventory("GEAR_RosehipJam", jamPortionsToUse))
+            if (!GameManager.GetInventoryComponent().GearInInventory("GEAR_RosehipJam", jamAmount))
             {
                 HUDMessage.AddMessage(Localization.Get("GAMEPLAY_NotEnoughJam"));
                 GameAudioManager.PlayGUIError();
@@ -253,7 +263,8 @@
             InterfaceManager.GetPanel<Panel_GenericProgressBar>().Launch(Localization.Get("GAMEPLAY_ProgressBarSweeten"), 2f, 0f, 0f,
                 "", null, false, true, new System.Action<bool, bool, float>(OnSweetenWithJamFinished));
 
-            GameManager.GetInventoryComponent().RemoveGearFromInventory("GEAR_RosehipJam", jamPortionsToUse);
+            GameManager.GetInventoryComponent().RemoveGearFromInventory("GEAR_RosehipJam", jamAmount);
+
 
             int stackCount = currentFoodItem.m_StackableItem != null ? currentFoodItem.m_StackableItem.m_Units : 1;
 

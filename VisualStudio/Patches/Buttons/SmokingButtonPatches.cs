@@ -128,7 +128,7 @@ namespace StalkerAidsAndSupplementsMod
                 CigaretteBuff buff = new CigaretteBuff();
                 buff.Start();
 
-                MelonLogger.Msg("[Cigarettes] Buff applied!");
+                // MelonLogger.Msg("[Cigarettes] Buff applied!");
         }
 
     }

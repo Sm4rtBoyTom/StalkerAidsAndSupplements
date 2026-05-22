@@ -1,5 +1,4 @@
-﻿using Il2CppAudio.SimpleAudio;
-using Il2CppTLD.Gear;
+﻿using Il2CppTLD.Gear;
 using Random = UnityEngine.Random;
 
 namespace StalkerAidsAndSupplementsMod
@@ -15,12 +14,6 @@ namespace StalkerAidsAndSupplementsMod
                 if (food != null)
                 {
                     food.m_MustConsumeAll = true;
-                }
-                FoodStatEffect foodeffect = __instance.gameObject.GetComponent<FoodStatEffect>() ?? __instance.gameObject.AddComponent<FoodStatEffect>();
-                if (foodeffect != null)
-                {
-                    foodeffect.m_Effect = -25;
-                    foodeffect.m_Stat = FoodStatEffect.StatType.Hunger;
                 }
                 CabinFeverReductionBuff cabinfever = __instance.gameObject.GetComponent<CabinFeverReductionBuff>() ?? __instance.gameObject.AddComponent<CabinFeverReductionBuff>();
                 if (cabinfever != null)
@@ -83,7 +76,6 @@ namespace StalkerAidsAndSupplementsMod
                     Bed bedComponent = tempBedroll.GetComponent<Bed>();
                     if (bedComponent != null)
                     {
-                        
                         bedComponent.m_OpenAudio = ""; 
                         bedComponent.m_CloseAudio = "";
                         bedComponent.SetState(BedRollState.Placed);

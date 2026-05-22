@@ -16,29 +16,24 @@
         [Slider(5, 25, 5)]
         public int VitaminCalories = 5;
 
-        [Section("Sleeping Settings")]
+        [Section("Sleeping pills Settings")]
 
         [Name("Fatigue Change per Dose")]
-        [Description("Adjust the fatigue change from one dose of Sleeping Pills. Default: -25%. [Requires scene reload.]")]
-        [Slider(25, 50, 6)]
-        public int SleepingIncrease = 25;
-
-        [Name("Calories per Dose")]
-        [Description("Adjust how many calories a single dose of Sleeping Pills provides. Default: 5. [Requires scene reload.]")]
-        [Slider(5, 25, 5)]
-        public int SleepingCalories = 5;
+        [Description("Adjust the fatigue change from one dose of Sleeping Pills. Default: -50%. [Requires scene reload.]")]
+        [Slider(40, 75, 8)]
+        public int SleepingIncrease = 50;
 
         [Name("Condition Bonus per Hour Slept")]
-        [Description("Adjust the additional condition gained per hour slept while the bonus is active. Default: +1 condition/hour. [Requires scene reload.]")]
+        [Description("Adjust the additional condition gained per hour slept while the bonus is active. Default: +1% condition/hour. [Requires scene reload.]")]
         [Slider(0, 3, 7)]
-        public float SleepingHP = 1;
+        public float SleepingHP = 1.5f;
 
         [Name("Condition Bonus Duration")]
-        [Description("Adjust how long the condition rest bonus lasts per dose. Default: 3 hours. [Requires scene reload.]")]
-        [Slider(0, 6, 13)]
-        public float SleepingBonusDuration = 3;
+        [Description("Adjust how long the condition rest bonus lasts per dose. Default: 6 hours. [Requires scene reload.]")]
+        [Slider(4, 8, 5)]
+        public float SleepingBonusDuration = 6;
 
-        [Section("Caffeine Settings")]
+        [Section("Caffeine pills Settings")]
 
         [Name("Fatigue Reduction per Dose")]
         [Description("Adjust the fatigue reduction from one dose of Caffeine Pills. Default: 25%. [Requires scene reload.]")]
@@ -113,6 +108,22 @@
         [Slider(2, 16, 15)]
         public int CabinFeverHours = 12;
 
+        [Section("Misc Settings")]
+
+        [Name("Ibuprofen Immediate Condition Restoration")]
+        [Description("Adjust how much condition Ibuprofen increases. Default: 1.5%. [Requires scene reload.]")]
+        [Slider(1, 3, 5)]
+        public float IbuprofenHP = 1.5f;
+
+        [Name("Nicotine Boost Duration")]
+        [Description("Adjust the duration of Nicotine Boost Buff: 3 Hours. [Requires scene reload.]")]
+        [Slider(2, 6, 9)]
+        public float BuffDuration = 3f;
+
+        [Name("Enable Infection risk changes")]
+        [Description("Mostly for mod compatibility, reverts back to vanilla Infection risk/Affliction behaviour. On by default. [Requires scene reload.]")]
+        public bool EnableInfection = true;
+
         [Section("Reset Settings")]
 
         [Name("Reset to Default Settings")]
@@ -127,14 +138,13 @@
         }
         public static void ApplyReset()
         {
-            if(instance.ResetSettings==true) 
+            if(instance.ResetSettings == true) 
             {
                 instance.VitaminCSmall = 20;
                 instance.VitaminCalories = 5;
-                instance.SleepingIncrease = 25;
-                instance.SleepingCalories = 5;
-                instance.SleepingBonusDuration = 3;
-                instance.SleepingHP = 1;
+                instance.SleepingIncrease = 50;
+                instance.SleepingBonusDuration = 6;
+                instance.SleepingHP = 1.5f;
                 instance.CaffeineCalories = 5;
                 instance.CaffeineDecrease = 25;
                 instance.CaffeineTime = 1;
@@ -148,6 +158,9 @@
                 instance.CaffeineCarry = 1.5f;
                 instance.CaffeineCarryTime = 1.5f;
                 instance.CabinFeverHours = 12;
+                instance.EnableInfection = true;
+                instance.IbuprofenHP = 1.5f;
+                instance.BuffDuration = 3f;
                 instance.RefreshGUI();
             }
         }

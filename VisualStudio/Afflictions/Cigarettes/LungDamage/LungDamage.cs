@@ -14,6 +14,17 @@ namespace StalkerAidsAndSupplementsMod.Afflictions
             spriteName: "ico_injury_suffocation",
             location: AfflictionBodyArea.Chest)
         {
+            AfflictionManager manager = AfflictionManager.GetAfflictionManagerInstance();
+            if (manager == null) return;
+
+            if (manager.HasAfflictionOfType(typeof(MinorLungDamage)))
+            {
+                var risk = manager.GetAfflictionsOfType(typeof(MinorLungDamage))
+                                  .FirstOrDefault() as MinorLungDamage;
+                risk?.Cure();
+            }
+
+            GameManager.SaveGame();
         }
         public InstanceType Type { get; set; } = InstanceType.Single;
         public override void OnUpdate() {}

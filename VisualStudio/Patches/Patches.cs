@@ -69,8 +69,6 @@ namespace StalkerAidsAndSupplementsMod
                 FoodItem food = __instance.gameObject.GetComponent<FoodItem>() ?? __instance.gameObject.AddComponent<FoodItem>();
                 if (food != null)
                  {
-                     food.m_CaloriesTotal = Settings.instance.SleepingCalories;
-                     food.m_CaloriesRemaining = Settings.instance.SleepingCalories;
                      food.m_MustConsumeAll = true;
                  }
                  FoodStatEffect Fatigue = __instance.gameObject.GetComponent<FoodStatEffect>() ?? __instance.gameObject.AddComponent<FoodStatEffect>();
@@ -87,7 +85,7 @@ namespace StalkerAidsAndSupplementsMod
                  }
                  if (__instance != null)
                 {
-                    __instance.m_SpawnChance = 75;
+                    __instance.m_SpawnChance = 50;
                 }
              }
          }
@@ -161,16 +159,6 @@ namespace StalkerAidsAndSupplementsMod
                      FoodBuff.m_Stat = FoodMaxStatBuff.StatType.Condition;
                      FoodBuff.m_TimeActiveHours = 6;
                  }
-                 FoodStatEffect foodeffect = __instance.gameObject.GetComponent<FoodStatEffect>() ?? __instance.gameObject.AddComponent<FoodStatEffect>();
-                 if (foodeffect != null)
-                 {
-                     foodeffect.m_Stat = FoodStatEffect.StatType.Hunger;
-                     foodeffect.m_Effect = -35;
-                 }
-                 if (__instance != null) //Makes FirstAidKit even rarer
-                 {
-                     __instance.m_SpawnChance = 50;
-                 }
              }
          }
      }
@@ -191,7 +179,7 @@ namespace StalkerAidsAndSupplementsMod
                      FirstAid.m_LocalizedInspectModeUseText = new LocalizedString { m_LocalizationID = "GAMEPLAY_APPLY" };
                      FirstAid.m_StabalizesSprains = true;
                      FirstAid.m_AppliesBandage = true;
-                 }
+                }
                  ConditionOverTimeBuff Condition = __instance.gameObject.GetComponent<ConditionOverTimeBuff>() ?? __instance.gameObject.AddComponent<ConditionOverTimeBuff>();
                  if (Condition != null)
                  {
@@ -213,7 +201,6 @@ namespace StalkerAidsAndSupplementsMod
                 FirstAidItem firstaid = __instance.gameObject.GetComponent<FirstAidItem>() ?? __instance.gameObject.AddComponent<FirstAidItem>();
                 if (firstaid != null)
                 {
-                    firstaid.m_HPIncrease = 2.5f;
                     firstaid.m_AppliesSutures = true;
                     firstaid.m_LocalizedInspectModeUseText = new LocalizedString { m_LocalizationID = "GAMEPLAY_USE" };
                     firstaid.m_LocalizedProgressBarMessage = new LocalizedString { m_LocalizationID = "GAMEPLAY_TakingPainkillers" };
@@ -253,6 +240,7 @@ namespace StalkerAidsAndSupplementsMod
                     statBuff.m_Stat = FoodMaxStatBuff.StatType.Stamina;
                     statBuff.m_CanStack = true;
                     statBuff.m_TimeActiveHours = 1.5f;
+                    statBuff.m_Buff = 20;
                 }
                 IngestedCarryCapacityBuff carryCapacityBuff = __instance.gameObject.GetComponent<IngestedCarryCapacityBuff>() ?? __instance.gameObject.AddComponent<IngestedCarryCapacityBuff>();
                 if (carryCapacityBuff != null)

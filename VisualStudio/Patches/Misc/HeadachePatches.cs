@@ -2,7 +2,7 @@
 {
     internal class HeadachePatches
     {
-        [HarmonyPatch(typeof(PlayerManager), nameof(PlayerManager.UseFirstAidItem))] //If player has Headache affliction and takes Ibuprofen,the headache is cured
+        [HarmonyPatch(typeof(PlayerManager), nameof(PlayerManager.FirstAidConsumed))] //If player has Headache affliction and takes Ibuprofen,the headache is cured
         private static class IbuprofenCuresHeadache
         {
             private static void Postfix(PlayerManager __instance, GearItem gi)
@@ -14,36 +14,14 @@
                 if (fia != null && fia.name == "GEAR_PainkillerIbuprofen")
                 {
                     if (GameManager.GetHeadacheComponent().HasHeadache())
+                    {
                         GameManager.GetHeadacheComponent().Cure();
+                    }
+                    GameManager.GetConditionComponent().AddHealth(Settings.instance.IbuprofenHP, DamageSource.FirstAid);
                 }
-            }
-        }
-        [HarmonyPatch(typeof(InfectionRisk), nameof(InfectionRisk.Update))] //Infection Risk/Affliction Tweaks
-        private static class InfectionRiskPatches
-        {
-            private static void Postfix(InfectionRisk __instance)
-            {
-                if (__instance == null) return;
-
-                if (__instance != null)
+                else if (fia != null && fia.name == "GEAR_FirstAidKitPainkiller")
                 {
-                    __instance.m_InfectionBaseChance = 70;
-                    __instance.m_InfectionChanceIncreasePerHour = 10;
-                }
-            }
-        }
-        [HarmonyPatch(typeof(Infection), nameof(Infection.Update))]
-        private static class InfectionPatches
-        {
-            private static void Postfix(Infection __instance)
-            {
-                if (__instance == null) return;
-
-                if (__instance != null)
-                {
-                    __instance.m_FatigueIncreasePerHour = 15;
-                    __instance.m_HPDrainPerHour = 7.5f;
-                    __instance.m_NumHoursRestForCure = 18;
+                    GameManager.GetConditionComponent().AddHealth(10f, DamageSource.FirstAid);
                 }
             }
         }
