@@ -13,7 +13,7 @@ A video game developed by [Hinterland Games](https://hinterlandgames.com/).**
  > This mod was heavily inspired by the S.T.A.L.K.E.R franchise and its community made projects _(Anomaly/GAMMA)_. If I did not have the opportunity to play S.T.A.L.K.E.R. this mod would not exist.
   
   - **New Medical Items:** Burdock dressing, ibuprofen, morphine, first aid kit, sleeping pills, Anabiotics, cigarettes.
-  - **Tweaks of existing mechanics/items:** Vitamin-C and caffeine tablets in the world, improved energy drink, Infection changes, ModSettings.
+  - **Tweaks of existing mechanics/items:** Vitamin-C and caffeine tablets spawn naturally in the world, improved energy drink, Infection changes, ModSettings.
   - **Food/Drink Sweetening:** New mechanic allowing sweetening of foods and drink with jam or sugar.
   - **Smoking Mechanic:** Smoking, new high risk high reward mechanic, comes with it's own custom afflictions.
   - **And more!**
