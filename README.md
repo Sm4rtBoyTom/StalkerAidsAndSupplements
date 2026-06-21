@@ -75,6 +75,6 @@ A video game developed by [Hinterland Games](https://hinterlandgames.com/).**
   ### Big thanks to the wonderful TLD Modding community that helped me make all this possible.
 
 > [!IMPORTANT]
-> **Since version 4.0.0 this mod has been partially developed with the assistance of LLMs.** _(AI tools)_
+> **As of version 4.0.0 this mod has been partially developed with the assistance of LLMs.** _(AI tools)_
 > **LLMs were specifically used for debugging assistance, partial code structuring and support during the implementation of timed events.**
 > **Mod design, balancing, assets and remaining code and implementation were completely made by human dev.**
