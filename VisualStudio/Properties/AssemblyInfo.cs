@@ -1,0 +1,6 @@
+﻿[assembly: AssemblyTitle("StalkerAidsAndSupplements")]
+[assembly: AssemblyCopyright("Sm4rtBoyTom")]
+[assembly: AssemblyVersion("4.1.1")]
+[assembly: AssemblyFileVersion("4.1.1")]
+[assembly: MelonInfo(typeof(StalkerAidsAndSupplementsMod.StalkerAidAndSupplements), "StalkerAidsAndSupplements", "4.1.1", "Sm4rtBoyTom", null)]
+[assembly: MelonGame("Hinterland", "TheLongDark")]
