@@ -58,12 +58,13 @@ A video game developed by [Hinterland Games](https://hinterlandgames.com/).**
 ## **Contributions**
 
 ### Special thanks to:
-- [**AcordUch**](https://github.com/AcordUch) - For providing Russian translations.
+- [**AcordUch**](https://github.com/AcordUch) and **Daves_pot** - For providing Russian translations.
 - [**deepsnowland**](https://github.com/deepsnowland) - For providing Japanese translations.
 - [**Elderly-Emre**](https://github.com/Elderly-Emre) - For providing Turkish translations.
 - [**LettereUniche**](https://github.com/LettereUniche) - For providing Italian translations.
 - **Tanui** - For providing Polish translations.
 - [**WPNsmglr**](https://github.com/WPNsmglr) - For providing Traditional Chinese translations.
+- [**EtherSystem**](https://github.com/EtherSystem) and **Mako**  - For providing French translations.
   
   > Note: If you don't see your name in the contributors list and wish to be mentioned, please let me know via DM on Discord.
   
